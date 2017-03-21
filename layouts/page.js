@@ -23,6 +23,11 @@ export default ({children}) => (
         width: 90%;
         max-width: 700px;
       }
+      @media (max-width: 500px) {
+        .main {
+          padding: 0;
+        }
+      }
       #nprogress {
         pointer-events: none;
       }

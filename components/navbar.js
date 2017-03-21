@@ -21,6 +21,7 @@ export default ({ links }) => (
         color: #585858;
         padding: 25px 15px;
         font-size: 15px;
+        z-index: 1;
       }
       ul {
         list-style: none;
