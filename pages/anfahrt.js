@@ -18,6 +18,6 @@ export default () => (
         `}
       </style>
     </div>
-    <p>Marienstr. 41, 46282 Dorsten</p>
+    <p>Marienstr. 41, 46284 Dorsten</p>
   </Page>
 )
