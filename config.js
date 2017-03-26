@@ -3,6 +3,7 @@ const config = {
   navbarLinks: [
     {href: '/', title: 'Index'},
     {href: '/referenzen', title: 'Referenzen'},
+    {href: '/anfahrt', title: 'Anfahrt'},
     {href: '/impressum', title: 'Impressum'}
   ]
 }

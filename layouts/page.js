@@ -6,7 +6,7 @@ import config from '../config'
 import styled from 'styled-components'
 
 const Main = styled.div`
-  padding: 25px 50px;
+  padding: 25px 70px;
   margin: 100px auto;
   width: 90%;
   max-width: 900px;

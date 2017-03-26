@@ -7,6 +7,7 @@ export default () => (
       <title>{config.title}</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/static/favicon.ico" type="image/x-icon" />
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
     </Head>
     <style jsx global>{`
       * {
@@ -14,7 +15,7 @@ export default () => (
         box-sizing: border-box
       }
       body {
-        font: 13px Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+        font-family: 'Open Sans', sans-serif;
         color: #4e4e4e;
       }
       a {
@@ -27,7 +28,6 @@ export default () => (
       }
       img {
         max-width: 100%;
-        margin: 25px 0;
       }
     `}</style>
   </div>
