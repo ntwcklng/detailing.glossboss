@@ -28,13 +28,12 @@ export default class Page extends React.Component {
   render() {
     return (
       <div>
-        {this.state.loaded ?
+        {this.state.loaded &&
         <Main>
           <Navbar links={config.navbarLinks}/>
           {this.props.children}
           <Header  />
-        </Main> :
-      <Loader />}
+        </Main>}
       </div>
     )
   }
