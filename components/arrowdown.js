@@ -1,6 +1,6 @@
 
 export default ({toggle}) => (
-  <div><svg enable-background="new 0 0 50 50" className={toggle && 'isToggled'} viewBox="0 0 50 50">
+  <div><svg enableBackground="new 0 0 50 50" className={toggle && 'isToggled'} viewBox="0 0 50 50">
     <rect fill="none" />
     <polygon points="47.25,15 45.164,12.914 25,33.078 4.836,12.914 2.75,15 25,37.25 "/>
   </svg>

@@ -14,7 +14,7 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-          <title>My page</title>
+          <title>Autopflege Mieth</title>
         </Head>
         <body>
           <Main />

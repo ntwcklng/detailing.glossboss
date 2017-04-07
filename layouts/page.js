@@ -4,6 +4,8 @@ import Header from '../components/head'
 import Navbar from '../components/navbar'
 import config from '../config'
 import styled from 'styled-components'
+import React from 'react'
+import Loader from '../components/loading'
 
 const Main = styled.div`
   padding: 25px 70px;
@@ -14,10 +16,26 @@ const Main = styled.div`
     padding: 0
   }
 `
-export default ({children}) => (
-  <Main>
-    <Navbar links={config.navbarLinks}/>
-    {children}
-    <Header  />
-  </Main>
-)
+export default class Page extends React.Component {
+  constructor() {
+    super()
+    this.state = {loaded: false}
+  }
+  componentDidMount() {
+    this.setState({loaded: true})
+  }
+
+  render() {
+    return (
+      <div>
+        {this.state.loaded ?
+        <Main>
+          <Navbar links={config.navbarLinks}/>
+          {this.props.children}
+          <Header  />
+        </Main> :
+      <Loader />}
+      </div>
+    )
+  }
+}
