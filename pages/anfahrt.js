@@ -1,6 +1,5 @@
 import Page from '../layouts/page'
 import Heading from '../components/heading'
-import styled from 'styled-components'
 
 export default () => (
   <Page>
