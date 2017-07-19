@@ -3,9 +3,18 @@ import Router from 'next/router'
 import Header from '../components/head'
 import Navbar from '../components/navbar'
 import config from '../config'
-import styled from 'styled-components'
+import styled, {keyframes} from 'styled-components'
 import React from 'react'
 import Loader from '../components/loading'
+
+const fadeIn = keyframes`
+  from {opacity: 0;}
+  to {opacity: 1;}
+`
+
+const ContentWrapper = styled.div`
+animation: ${fadeIn} .6s ease-in forwards;
+`
 
 const Main = styled.div`
   padding: 25px 70px;
@@ -31,7 +40,9 @@ export default class Page extends React.Component {
         {this.state.loaded &&
         <Main>
           <Navbar links={config.navbarLinks}/>
-          {this.props.children}
+          <ContentWrapper>
+            {this.props.children}
+          </ContentWrapper>
           <Header  />
         </Main>}
       </div>
