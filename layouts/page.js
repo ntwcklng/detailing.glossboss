@@ -1,6 +1,7 @@
 import Link from 'next/prefetch'
 import Router from 'next/router'
 import Header from '../components/head'
+import Footer from '../components/footer'
 import Navbar from '../components/navbar'
 import config from '../config'
 import styled, {keyframes} from 'styled-components'
@@ -44,6 +45,7 @@ export default class Page extends React.Component {
             {this.props.children}
           </ContentWrapper>
           <Header  />
+          <Footer />
         </Main>}
       </div>
     )

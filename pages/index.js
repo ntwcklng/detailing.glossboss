@@ -1,11 +1,11 @@
 import Page from '../layouts/page'
 import Heading from '../components/heading'
-import Leistungen from '../components/leistungen'
+import Video from '../components/video'
 
 export default () => (
   <Page>
-    <Heading>Autopflege Mieth</Heading>
-    <h1>Leistungen</h1>
-    <Leistungen />
+    <Heading>Willkommen bei Autopflege Mieth</Heading>
+    <p>Unser letztes Video:</p>
+    <Video link="https://www.youtube.com/embed/tLG_XRvTMMI" />
   </Page>
 )
