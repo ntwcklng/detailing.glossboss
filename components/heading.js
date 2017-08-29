@@ -4,7 +4,7 @@ export default({children}) => (
     <style jsx>{`
       h1 {
         text-align: center;
-        color: #282A36;
+        color: #514c4c;
       }
     `}</style>
   </h1>

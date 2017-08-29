@@ -15,7 +15,6 @@ export default ({toggle}) => (
     }
     div {
       z-index: 2;
-      background: red;
     }
   `}</style></div>
 )

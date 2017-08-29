@@ -1,6 +1,5 @@
 import Link from 'next/prefetch'
 import Router from 'next/router'
-import Header from '../components/head'
 import Footer from '../components/footer'
 import Navbar from '../components/navbar'
 import config from '../config'
@@ -14,11 +13,11 @@ const fadeIn = keyframes`
 `
 
 const ContentWrapper = styled.div`
-animation: ${fadeIn} .6s ease-in forwards;
+  animation: ${fadeIn} .6s ease-in forwards;
 `
 
 const Main = styled.div`
-  padding: 25px 70px;
+  padding: 25px 30px;
   margin: 100px auto;
   width: 90%;
   max-width: 900px;
@@ -44,7 +43,6 @@ export default class Page extends React.Component {
           <ContentWrapper>
             {this.props.children}
           </ContentWrapper>
-          <Header  />
           <Footer />
         </Main>}
       </div>

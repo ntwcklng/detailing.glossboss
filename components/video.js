@@ -1,12 +1,19 @@
 import styled from 'styled-components'
 
 const Item = styled.iframe`
-margin: 5em 0;
+margin: 1em 0;
 width: 1000px;
 height: 400px;
 max-width: 100%;
-frameborder: 0;
+border: none;
+`
+const Title = styled.h3`
+  margin-top: 20px;
+  color: #c1c1c1;
 `
 export default({link}) => (
-  <div><Item src={link} frameborder="0" allowfullscreen /></div>
+  <div>
+    <Title>Unser letztes Video:</Title>
+    <Item src={link} frameborder="0" allowfullscreen />
+  </div>
 )

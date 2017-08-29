@@ -4,9 +4,12 @@ import SocialItem from './socialitem.js'
 const Footer = styled.div`
   text-align: center;
   color: #c1c1c1;
-  padding: 30px;
+  margin: 30px;
   &:hover {
     color: #50A8DB;
+  }
+  @media (max-width: 500px) {
+    margin: 5px;
   }
 `
 export default() => (

@@ -9,7 +9,7 @@ const Navbar = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  background: rgba(255, 255, 255, .95);
+  background: rgba(255, 255, 255, .97);
   color: #4e4e4e;
   padding: 15px;
   font-size: 15px;
@@ -27,9 +27,9 @@ const NavbarListItem = styled.li`
   margin-right: 25px;
   padding: 0;
   transform: ${props => props.isLogo ? '' : 'translateY(-30px)'};
-  @media (max-width: 500px) {
-    display: ${props => props.isLogo ? 'block' : props.toggle ? 'block':'none'}
-    margin: ${props => props.isLogo ? '0' : '10px auto'}
+  @media (max-width: 713px) {
+    display: ${props => props.isLogo ? 'block' : props.toggle ? 'block':'none'};
+    margin: ${props => props.isLogo ? '0' : '10px auto'};
     transform: ${props => props.isLogo ? '' : 'translateY(30px)'};
     text-align: center;
     height: 50px;
@@ -38,7 +38,7 @@ const NavbarListItem = styled.li`
 `;
 const NavbarListItemToggle = styled.div`
   display: none;
-  @media (max-width: 500px) {
+  @media (max-width: 713px) {
     display: block;
     display: flex;
     justify-content: center;
@@ -57,6 +57,7 @@ export default class NavBar extends React.Component {
   }
   toggleNav() {
     this.setState({nav: !this.state.nav})
+    console.log('toggled')
   }
   render () {
     return (
@@ -65,7 +66,7 @@ export default class NavBar extends React.Component {
           <ArrowDown toggle={this.state.nav} />
         </NavbarListItemToggle>
         <NavbarList>
-          <NavbarListItem isLogo>
+          <NavbarListItem isLogo={true}>
             <Link href="/" prefetch><a><Logo /></a></Link>
           </NavbarListItem>
           {this.props.links.map(link => (
