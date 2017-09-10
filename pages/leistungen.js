@@ -19,6 +19,22 @@ const LeistungTitle = styled.h2`
 const LeistungList = styled.ul`
   margin: 20px;
   padding: 0;
+  list-style:none;
+  color: #828080;
+`
+const LeistungListItem = styled.li`
+  &:before {
+  content: '';
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  background-image: url(/static/check.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right:0.5em;
+  margin-top: 10px;
+  transform: translate(0,2px);
+  }
 `
 const LeistungPreis = styled.h2`
   margin: 20px 0;
@@ -40,12 +56,36 @@ export default() => (
       <LeistungTitle>Versiegelung - Keramikbeschichtung</LeistungTitle>
       <p>Eine keramische Versiegelung wie das Gtechniq Crystal Serum schützt den Lack zuverlässig vor allen Umwelteinflüssen. Als erster in Deutschland zertifizierter Aufbereiter von Gtechniq, appliziere ich diese Versiegelung fachlich korrekt, damit diese auch mehrere Jahre hält.</p> <p>Weitere Vorteile: der Dreck wird schlechter haften, das Wasser perlt schöner und schneller ab und das Waschen geht einfacher von der Hand. Du kannst wählen zwischen:</p>
       <LeistungList>
-        <li>Gtechniq Crystal Serum (+ Exo)</li>
-        <li>Gyeon Prime/Mohs</li>
-        <li>Weitere auf Anfrage</li>
+        <LeistungListItem>Gtechniq Crystal Serum (+ Exo)</LeistungListItem>
+        <LeistungListItem>Gyeon Prime/Mohs</LeistungListItem>
+        <LeistungListItem>Weitere auf Anfrage</LeistungListItem>
       </LeistungList>
       <p>Bevor wir aber deinen Lack mit einer Keramikversiegelung schützen können, muss dieser mindestens 1-Stufig poliert werden.</p>
       <LeistungPreis>ab 150€</LeistungPreis>
+    </Leistung>
+    
+    <Leistung>
+      <LeistungTitle>Gtechniq Crystal Serum Paket</LeistungTitle>
+      <p>Die längste Standzeit, der beste Schutz und das schönste Wasserablaufverhalten. Das Crystal Serum von Gtechniq ist ohne Zweifel die beste Versiegelung die es momentan gibt. Überzeuge dich selbst und schaue dir ein paar Arbeitsbeispiele an: <a href="https://glossboss.de/pflegeberichte/porsche-997-grau-crystal-serum-gtechniq/" target="_blank">Porsche 997 Grau</a>, <a href="https://glossboss.de/pflegeberichte/crystal-serum-nach-2-jahren/" target="_blank">Porsche 997 Grau nach 2 Jahren</a>, <a href="https://glossboss.de/pflegeberichte/video-porsche-996-turbo-gtechniq-crystal-serum-exo/" target="_blank">Porsche 996 Turbo</a></p>
+      
+      <LeistungList>
+        <LeistungListItem>1-Stufige Defektkorrektur</LeistungListItem>
+        <LeistungListItem>Lackversiegelung mit Gtechniq Crystal Serum + Exo</LeistungListItem>
+        <LeistungListItem>Ca. 2-3 Jahre realistische Standzeit</LeistungListItem>
+      </LeistungList>
+      <LeistungPreis>ab 850€</LeistungPreis>
+    </Leistung>
+    
+    <Leistung>
+      <LeistungTitle>Gyeon Paket</LeistungTitle>
+      <p>Dein Auto wird mit Mitteln aus dem Hause Gyeon gepflegt und 1-Stufig Poliert. Natürlich individuell erweiterbar und auf deinem Fahrzeug angepasst. Das Gyeon Paket könnte wiefolgt aussehen:</p>
+      <LeistungList>
+        <LeistungListItem>Lackversiegelung mit Gyeon Mohs(+) oder Prime</LeistungListItem>
+        <LeistungListItem>Scheibenversiegelung mit Gyeon View</LeistungListItem>
+        <LeistungListItem>Felgenversiegelung mit Gyeon Rim</LeistungListItem>
+        <LeistungListItem>Kunststoffversiegelung mit Gyeon Trim</LeistungListItem>
+      </LeistungList>
+      <LeistungPreis>ab 650€</LeistungPreis>
     </Leistung>
     
     <Leistung>
