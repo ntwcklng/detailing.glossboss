@@ -36,7 +36,6 @@ export default class MyDocument extends Document {
             box-sizing: border-box
           }
           body {
-            font-family: 'Open Sans', sans-serif;
             color: #4e4e4e;
           }
           a {

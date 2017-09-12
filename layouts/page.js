@@ -21,6 +21,7 @@ const Main = styled.div`
   margin: 100px auto;
   width: 90%;
   max-width: 900px;
+  font-family: 'Open Sans', sans-serif;
   @media (max-width: 500px) {
     padding: 0
   }
