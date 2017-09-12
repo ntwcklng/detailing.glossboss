@@ -1,11 +1,11 @@
+import React from 'react'
 import Link from 'next/prefetch'
 import Router from 'next/router'
+import styled, {keyframes} from 'styled-components'
+
 import Footer from '../components/footer'
 import Navbar from '../components/navbar'
 import config from '../config'
-import styled, {keyframes} from 'styled-components'
-import React from 'react'
-import Loader from '../components/loading'
 
 const fadeIn = keyframes`
   from {opacity: 0;}

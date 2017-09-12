@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+
 import SocialItem from './socialitem.js'
 
 const Footer = styled.div`
@@ -12,6 +13,7 @@ const Footer = styled.div`
     margin: 5px;
   }
 `
+
 export default() => (
   <Footer>
     <SocialItem text="Facebook" link="https://www.facebook.com/aufbereitung.mieth" />

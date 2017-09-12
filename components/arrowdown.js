@@ -1,4 +1,3 @@
-
 export default ({toggle}) => (
   <div><svg enableBackground="new 0 0 50 50" className={toggle && 'isToggled'} viewBox="0 0 50 50">
     <rect fill="none" />

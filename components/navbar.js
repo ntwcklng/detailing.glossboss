@@ -1,7 +1,8 @@
 import React from 'react'
-import Link from 'next/link';
-import styled from 'styled-components';
-import Logo from '../components/logo';
+import Link from 'next/link'
+import styled from 'styled-components'
+
+import Logo from '../components/logo'
 import ArrowDown from './arrowdown'
 
 const Navbar = styled.div`
@@ -14,14 +15,16 @@ const Navbar = styled.div`
   padding: 15px;
   font-size: 15px;
   z-index: 1;
-`;
+`
+
 const NavbarList = styled.ul`
   list-style: none;
   margin: 0;
   padding: 0;
   height: 100%;
   min-height: 70px;
-`;
+`
+
 const NavbarListItem = styled.li`
   display: inline-block;
   margin-right: 25px;
@@ -35,7 +38,8 @@ const NavbarListItem = styled.li`
     height: 50px;
     width: 100%;
   }
-`;
+`
+
 const NavbarListItemToggle = styled.div`
   display: none;
   @media (max-width: 713px) {
@@ -48,6 +52,7 @@ const NavbarListItemToggle = styled.div`
     right: 25px;
   }
 `
+
 export default class NavBar extends React.Component {
   constructor () {
     super()
@@ -57,7 +62,6 @@ export default class NavBar extends React.Component {
   }
   toggleNav() {
     this.setState({nav: !this.state.nav})
-    console.log('toggled')
   }
   render () {
     return (

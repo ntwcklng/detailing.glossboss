@@ -10,12 +10,15 @@ const Referenz = styled.div`
     opacity: 1
   }
 `
+
 const ReferenzLink = styled.a`
   text-decoration: none;
 `
+
 const ReferenzImage = styled.img`
   opacity: .9;
 `
+
 export default({img, link, title}) => (
   <Referenz>
     <ReferenzLink href={link} target="_blank">

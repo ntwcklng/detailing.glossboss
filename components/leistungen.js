@@ -9,16 +9,19 @@ export const Leistung = styled.div`
     border: 1px solid #50A8DB;
   }
 `
+
 export const LeistungTitle = styled.h2`
   margin-bottom: 25px;
   color: #50A8DB;
 `
+
 export const LeistungList = styled.ul`
   margin: 20px;
   padding: 0;
   list-style:none;
   color: #828080;
 `
+
 export const LeistungListItem = styled.li`
   &:before {
   content: '';
@@ -33,6 +36,7 @@ export const LeistungListItem = styled.li`
   transform: translate(0,2px);
   }
 `
+
 export const LeistungPreis = styled.h2`
   margin: 20px 0;
   color: #c1c1c1;
