@@ -1,25 +1,26 @@
 import styled from 'styled-components'
+import config from '../config'
 
 export const Leistung = styled.div`
   margin: 50px 0;
   padding: 25px;
-  box-sizing: border-box;
-  border: 1px solid white;
-  &:hover {
+  ${'' /* border: 1px solid white; */}
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  ${'' /* &:hover {
     border: 1px solid #50A8DB;
-  }
+  } */}
 `
 
 export const LeistungTitle = styled.h2`
   margin-bottom: 25px;
-  color: #50A8DB;
+  color: ${config.mainColor};
 `
 
 export const LeistungList = styled.ul`
   margin: 20px;
   padding: 0;
   list-style:none;
-  color: #828080;
+  color: ${config.lightText};
 `
 
 export const LeistungListItem = styled.li`
@@ -39,6 +40,7 @@ export const LeistungListItem = styled.li`
 
 export const LeistungPreis = styled.h2`
   margin: 20px 0;
-  color: #c1c1c1;
+  color: ${config.lightText};
   padding: 0;
+  text-align: right;
 `

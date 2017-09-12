@@ -1,13 +1,14 @@
 import styled from 'styled-components'
 
 import SocialItem from './socialitem.js'
+import config from '../config'
 
 const Footer = styled.div`
   text-align: center;
-  color: #c1c1c1;
+  color: ${config.lightText};
   margin: 30px;
   &:hover {
-    color: #50A8DB;
+    color: ${config.mainColor};
   }
   @media (max-width: 500px) {
     margin: 5px;

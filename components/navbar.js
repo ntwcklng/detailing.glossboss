@@ -11,7 +11,6 @@ const Navbar = styled.div`
   left: 0;
   width: 100%;
   background: rgba(255, 255, 255, .97);
-  color: #4e4e4e;
   padding: 15px;
   font-size: 15px;
   z-index: 1;

@@ -22,9 +22,27 @@ const Main = styled.div`
   width: 90%;
   max-width: 900px;
   font-family: 'Open Sans', sans-serif;
+  color: ${config.darkText};
   @media (max-width: 500px) {
     padding: 0
+  };
+  a {
+    color: ${config.mainColor};
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+  };
+  a:hover {
+    color: #000;
+    text-decoration: none;
+  };
+  a:visited {
+    color: ${config.mainColor};
   }
+  img {
+    max-width: 100%;
+  };
+  * {
+    box-sizing: border-box
+  };
 `
 export default class Page extends React.Component {
   constructor() {

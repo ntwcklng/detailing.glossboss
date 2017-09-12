@@ -30,26 +30,6 @@ export default class MyDocument extends Document {
           </div>
           <NextScript />
         </body>
-        <style jsx global>{`
-          * {
-            margin: 0;
-            box-sizing: border-box
-          }
-          body {
-            color: #4e4e4e;
-          }
-          a {
-            color: #50A8DB;
-            -webkit-tap-highlight-color: rgba(0,0,0,0);
-          }
-          a:hover {
-            color: #000;
-            text-decoration: none;
-          }
-          img {
-            max-width: 100%;
-          }
-        `}</style>
       </html>
     )
   }

@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 
+import config from '../config'
+
 const Item = styled.iframe`
   margin: 1em 0;
   width: 1000px;
@@ -10,7 +12,7 @@ const Item = styled.iframe`
 
 const Title = styled.h3`
   margin-top: 20px;
-  color: #c1c1c1;
+  color: ${config.lightText};
 `
 
 export default({link}) => (
