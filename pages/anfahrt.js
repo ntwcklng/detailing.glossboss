@@ -18,5 +18,6 @@ export default () => (
       </style>
     </div>
     <p>Marienstr. 41, 46284 Dorsten</p>
+    <p>Bitte nur nach <strong>vorheriger</strong> Terminabsprache vorbeikommen!</p>
   </Page>
 )

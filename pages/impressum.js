@@ -6,7 +6,7 @@ export default () => (
     <Heading>Impressum</Heading>
     <p>Marvin Mieth<br />
     Bussardstr. 22<br />46282 Dorsten</p>
-    <p>Telefon: 01703262412<br />
+    <p>Telefon: 01703262412 (Kontakt via eMail wird bevorzugt!)<br />
     E-Mail: <a href="mailto:mmieth+autopflege@gmail.com">mmieth+autopflege @ gmail.com</a><br />
     </p>
     <br /><br /><h2>Disclaimer – rechtliche Hinweise</h2>
