@@ -1,6 +1,18 @@
 import Document, { Head, Main, NextScript } from 'next/document'
-import { ServerStyleSheet } from 'styled-components'
+import { ServerStyleSheet, injectGlobal } from 'styled-components'
 import config from '../config'
+
+injectGlobal`
+  body {
+    background-color: #fafbff;
+    font-size: 16px;
+    line-height: 1.5;
+  };
+  * {
+    box-sizing: border-box
+  };
+
+`
 
 export default class MyDocument extends Document {
   render () {

@@ -11,6 +11,7 @@ const config = {
   mainColor: '#50A8DB',
   darkText: '#4e4e4e',
   lightText: '#c1c1c1',
+  cardShadow: '0px 2px 4px rgba(0,0,0,.18)',
 }
 
 export default config

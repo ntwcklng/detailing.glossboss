@@ -7,12 +7,9 @@ const Referenz = styled.div`
   padding: 30px;
   border: 1px solid white;
   margin-top: 50px;
-  ${'' /* &:hover {
-    border: 1px solid #50A8DB;
-    opacity: 1
-  }; */}
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: ${config.cardShadow};
   padding-top: 0;
+  background-color: white;
 `
 
 const ReferenzLink = styled.a`

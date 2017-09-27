@@ -40,9 +40,6 @@ const Main = styled.div`
   img {
     max-width: 100%;
   };
-  * {
-    box-sizing: border-box
-  };
 `
 export default class Page extends React.Component {
   constructor() {

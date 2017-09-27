@@ -7,9 +7,6 @@ const Footer = styled.div`
   text-align: center;
   color: ${config.lightText};
   margin: 30px;
-  &:hover {
-    color: ${config.mainColor};
-  }
   @media (max-width: 500px) {
     margin: 5px;
   }

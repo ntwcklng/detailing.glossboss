@@ -4,11 +4,8 @@ import config from '../config'
 export const Leistung = styled.div`
   margin: 50px 0;
   padding: 25px;
-  ${'' /* border: 1px solid white; */}
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  ${'' /* &:hover {
-    border: 1px solid #50A8DB;
-  } */}
+  box-shadow: ${config.cardShadow};
+  background-color: white;
 `
 
 export const LeistungTitle = styled.h2`
