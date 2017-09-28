@@ -1,16 +1,25 @@
 import styled from 'styled-components'
 import react from 'react'
 
+import config from '../config'
+
 const Hero = styled.div`
-  background: #1f494D;
   height: 500px;
+  background-image: linear-gradient(${config.heroGradient}, ${config.heroGradient}), url("${props => props.image}");
+  background-size: cover;
 `
-const Image = styled.img`
-  mix-blend-mode: multiply;
-  filter: grayscale(100%);
-  width: 100%;
-  height: 500px;
-  object-fit: cover;
+const Title = styled.h1`
+  position: relative;
+  top: 40%;
+  text-align: center;
+  color: white;
+  small {
+    display: block;
+    color: rgba(255, 255, 255, .6);
+  };
+  @media (max-width: ${config.mobileMQ}) {
+    top: 20%;
+  }
 `
 const heroImages = [
   'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/amg-gts-grau/DSC01437.jpg',
@@ -40,10 +49,9 @@ export default class Item extends react.Component {
   }
   render() {
     return (
-      <Hero>
-        <Image src={this.state.image} alt={this.props.imageDescription || ''} />
+      <Hero image={this.state.image}>
+        <Title>{this.props.title}<small>{this.props.subTitle}</small></Title>
       </Hero>
-      
     )
   }
 }

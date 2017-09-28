@@ -3,6 +3,7 @@ import Link from 'next/link'
 import styled from 'styled-components'
 
 import Logo from '../components/logo'
+import config from '../config'
 import ArrowDown from './arrowdown'
 
 const Navbar = styled.div`
@@ -10,7 +11,7 @@ const Navbar = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  background: rgba(255, 255, 255, .90);
+  background: white;
   padding: 15px;
   font-size: 15px;
   z-index: 1;
@@ -29,7 +30,7 @@ const NavbarListItem = styled.li`
   margin-right: 25px;
   padding: 0;
   transform: ${props => props.isLogo ? '' : 'translateY(-30px)'};
-  @media (max-width: 713px) {
+  @media (max-width: ${config.mobileMQ}) {
     display: ${props => props.isLogo ? 'block' : props.toggle ? 'block':'none'};
     margin: ${props => props.isLogo ? '0' : '10px auto'};
     transform: ${props => props.isLogo ? '' : 'translateY(30px)'};
@@ -41,7 +42,7 @@ const NavbarListItem = styled.li`
 
 const NavbarListItemToggle = styled.div`
   display: none;
-  @media (max-width: 713px) {
+  @media (max-width: ${config.mobileMQ}) {
     display: block;
     display: flex;
     justify-content: center;

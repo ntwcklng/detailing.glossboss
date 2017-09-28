@@ -12,8 +12,7 @@ import {
 } from '../components/leistungen.js'
 
 export default() => (
-  <Page>
-    <Heading>Leistungen / Preise</Heading>
+  <Page title="Leistungen / Preise">
     <Card>
       <LeistungTitle>Polieren - Defektkorrektur</LeistungTitle>
       <p>Wir entfernen feine Kratzer (Waschanlagenkratzer, Swirls) und Hologramme. Je nachdem wie sehr dein Lack zerkratzt ist, muss dies in mehreren Durchgängen geschehen.</p>

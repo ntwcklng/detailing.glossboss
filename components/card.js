@@ -6,6 +6,7 @@ const Card = styled.div`
   padding: 25px;
   box-shadow: ${config.cardShadow};
   background-color: white;
+  border-top: 4px solid ${config.mainColorLight};
 `
 export default ({children}) => (
   <Card>{children}</Card>

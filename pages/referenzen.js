@@ -5,9 +5,7 @@ import ReferenzItem from '../components/referenzitem.js'
 import Card from '../components/card'
 
 export default () => (
-  <Page>
-    <Heading>Referenzen</Heading>
-    <SubHeading>Hier findest du eine kleine Auswahl an Fahrzeugen die ich schon pflegen durfte.</SubHeading>
+  <Page title="Referenzen" subTitle="Hier findest du eine kleine Auswahl an Fahrzeugen die ich schon pflegen durfte.">
     <Card>
       <ReferenzItem
         img="https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/996turbo-bilder/DSC02067.jpg"

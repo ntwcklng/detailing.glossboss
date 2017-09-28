@@ -5,6 +5,7 @@ import styled, {keyframes} from 'styled-components'
 
 import Footer from '../components/footer'
 import Navbar from '../components/navbar'
+import Hero from '../components/hero'
 import config from '../config'
 
 const fadeIn = keyframes`
@@ -18,10 +19,10 @@ const ContentWrapper = styled.div`
 
 const Main = styled.div`
   padding: 25px 30px;
-  margin: 100px auto;
+  margin: 10px auto;
+  margin-top: -220px;
   width: 90%;
   max-width: 900px;
-  font-family: 'Open Sans', sans-serif;
   color: ${config.darkText};
   @media (max-width: 500px) {
     padding: 0
@@ -53,15 +54,18 @@ export default class Page extends React.Component {
   render() {
     return (
       <div>
-        {this.state.loaded &&
-        <Main>
-          <Navbar links={config.navbarLinks}/>
-          <ContentWrapper>
-            {this.props.children}
-          </ContentWrapper>
-          <Footer />
-        </Main>}
-      </div>
+      {this.state.loaded &&
+        <div>
+          <Hero title={this.props.title || ''} subTitle={this.props.subTitle || ''}/>
+          <Main>
+            <Navbar links={config.navbarLinks}/>
+            <ContentWrapper>
+              {this.props.children}
+            </ContentWrapper>
+            <Footer />
+          </Main>
+      </div>}
+    </div>
     )
   }
 }
