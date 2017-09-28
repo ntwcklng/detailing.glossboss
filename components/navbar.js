@@ -10,7 +10,7 @@ const Navbar = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  background: rgba(255, 255, 255, .97);
+  background: rgba(255, 255, 255, .90);
   padding: 15px;
   font-size: 15px;
   z-index: 1;

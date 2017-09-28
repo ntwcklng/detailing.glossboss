@@ -1,13 +1,6 @@
 import styled from 'styled-components'
 import config from '../config'
 
-export const Leistung = styled.div`
-  margin: 50px 0;
-  padding: 25px;
-  box-shadow: ${config.cardShadow};
-  background-color: white;
-`
-
 export const LeistungTitle = styled.h2`
   margin-bottom: 25px;
   color: ${config.mainColor};
