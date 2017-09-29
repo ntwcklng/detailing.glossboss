@@ -16,6 +16,7 @@ export default() => (
     <Card>
       <LeistungTitle>Polieren - Defektkorrektur</LeistungTitle>
       <p>Wir entfernen feine Kratzer (Waschanlagenkratzer, Swirls) und Hologramme. Je nachdem wie sehr dein Lack zerkratzt ist, muss dies in mehreren Durchgängen geschehen.</p>
+      <p>Tiefere Kratzer und Parkschrammen werden von uns durch spezielle Trockenschleifsysteme entfernt ohne zuviel Lack abtragen zu müssen.</p>
       <p>Der erste Durchgang kostet rund 500€ und beinhaltet die Fahrzeugwäsche (inkl. Felgen und Einstiege), Lackreinigung mittels Knete und die erste Stufe der Defektkorrektur, wo mit einem Durchgang der beste Kompromiss aus Kratzerentfernung und Glanzsteigerung gewählt wird.</p>
       <p>Jeder weitere Durchgang kostet rund 300€, entfernt mehr Kratzer und lässt deinen Lack noch mehr glänzen.</p>
       <LeistungPreis>ab 500€</LeistungPreis>
@@ -31,6 +32,22 @@ export default() => (
       </LeistungList>
       <p>Bevor wir aber deinen Lack mit einer Keramikversiegelung schützen können, muss dieser mindestens 1-Stufig poliert werden.</p>
       <LeistungPreis>ab 150€</LeistungPreis>
+    </Card>
+    
+    <Card>
+      <LeistungTitle>Luxuswachs - Zymöl, Swizöl</LeistungTitle>
+      <p>Nicht jeder Lack wird so beansprucht, dass es sich lohnt eine keramische Versiegelung zu applizieren. Die Luxuswachse von Zymöl, Swizöl und co. sind was für echte Liebhaber, die ihr Fahrzeug hauptsächlich bei schönem Wetter bewegen. Die teilweise bis zu 3000€ teuren Wachse werden von uns nur auf frisch polierte Lacke aufgetragen um das bestmögliche Ergebnis zu erzielen.</p>
+      <p>Du wirst belohnt mit einzigartigem Glanz und einer unvergleichlichen Haptik deines Lackes.</p>
+      <p>Folgende Luxuswachse stehen bei uns zur Auswahl:</p>
+      <LeistungList>
+        <LeistungListItem>Zymöl Vintage</LeistungListItem>
+        <LeistungListItem>Zymöl Concours</LeistungListItem>
+        <LeistungListItem>Zymöl Carbon</LeistungListItem>
+        <LeistungListItem>Swizöl Best of Show</LeistungListItem>
+        <LeistungListItem>Swizöl Blau-Weiß</LeistungListItem>
+        <LeistungListItem>Weitere auf Anfrage</LeistungListItem>
+      </LeistungList>
+      <LeistungPreis>ab 100€</LeistungPreis>
     </Card>
     
     <Card>
@@ -59,7 +76,7 @@ export default() => (
     
     <Card>
       <LeistungTitle>Lederreinigung / Lederreperatur</LeistungTitle>
-      <p>Egal ob speckiges Leder oder eingerissene Sitzwange, wir können es reparieren.</p>
+      <p>Egal ob speckiges Leder oder eingerissene Sitzwange, wir können es reparieren. Dein Leder wird wieder geschmeidiger und fühlt sich wieder natürlicher an. Die Regelmäßige Lederpflege ist unheimlich wichtig für den Werterhalt deines Schmuckstückes.</p>
       <p>Schaue dir dazu dieses Youtube Video an: <a href="https://youtu.be/-6gDw7lzgp4?t=11m11s" target="_blank">Leder nachfärben am Porsche 997 Turbo</a></p>
       <LeistungPreis>ab 200€</LeistungPreis>
     </Card>

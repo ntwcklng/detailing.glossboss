@@ -22,6 +22,7 @@ const ReferenzReadMore = styled.div`
 
 const ReferenzTitle = styled.h2`
   letter-spacing: 2px;
+  margin: 0 0 25px 0;
 `
 
 export default({img, link, title, desc, readMore}) => (

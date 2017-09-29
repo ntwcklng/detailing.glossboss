@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import config from '../config'
 
 export const LeistungTitle = styled.h2`
-  margin-bottom: 25px;
+  margin: 0 0 25px 0;
   color: ${config.mainColor};
 `
 

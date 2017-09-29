@@ -15,7 +15,9 @@ const Title = styled.h1`
   color: white;
   small {
     display: block;
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, .7);
+    font-weight: 100;
+    font-size: 24px;
   };
   @media (max-width: ${config.mobileMQ}) {
     top: 20%;
