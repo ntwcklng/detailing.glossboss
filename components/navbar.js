@@ -22,18 +22,22 @@ const NavbarList = styled.ul`
   list-style: none;
   margin: 0;
   padding: 0;
-  height: 70px;
+  height: 100%;
+  min-height: 70px;
 `
 
 const NavbarListItem = styled.li`
   display: inline-block;
-  margin-right: 30px;
+  margin-right: 25px;
   padding: 0;
   transform: ${props => props.isLogo ? '' : 'translateY(-30px)'};
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   a {
     text-decoration: none;
+  };
+  a:hover {
+    color: black;
   };
   @media (max-width: ${config.mobileMQ}) {
     display: ${props => props.isLogo ? 'block' : props.toggle ? 'block':'none'};
