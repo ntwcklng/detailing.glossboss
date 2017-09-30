@@ -20,15 +20,9 @@ const ReferenzReadMore = styled.div`
   margin-top: 50px;
 `
 
-const ReferenzTitle = styled.h2`
-  letter-spacing: 2px;
-  margin: 0 0 25px 0;
-`
-
-export default({img, link, title, desc, readMore}) => (
+export default({img, link, desc, readMore}) => (
   <ReferenzLink href={link} target="_blank">
     <div className="inner">
-      <ReferenzTitle>{title}</ReferenzTitle>
       <ReferenzDesc>{desc}</ReferenzDesc>
       <ReferenzImage src={img} />
       <ReferenzReadMore>{readMore ? {readMore} : 'Bericht ansehen'}</ReferenzReadMore>

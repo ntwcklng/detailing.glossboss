@@ -18,9 +18,13 @@ const Title = styled.h1`
     color: rgba(255, 255, 255, .7);
     font-weight: 100;
     font-size: 24px;
+    @media (max-width: ${config.mobileMQ}) {
+      font-size: 20px;
+    }
   };
   @media (max-width: ${config.mobileMQ}) {
-    top: 20%;
+    top: 30%;
+    font-size: 24px;
   }
 `
 const heroImages = [

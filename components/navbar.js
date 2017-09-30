@@ -15,21 +15,26 @@ const Navbar = styled.div`
   padding: 15px;
   font-size: 15px;
   z-index: 1;
+  box-shadow: 0px 4px 6px -3px rgba(0,0,0,0.30);
 `
 
 const NavbarList = styled.ul`
   list-style: none;
   margin: 0;
   padding: 0;
-  height: 100%;
-  min-height: 70px;
+  height: 70px;
 `
 
 const NavbarListItem = styled.li`
   display: inline-block;
-  margin-right: 25px;
+  margin-right: 30px;
   padding: 0;
   transform: ${props => props.isLogo ? '' : 'translateY(-30px)'};
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  a {
+    text-decoration: none;
+  };
   @media (max-width: ${config.mobileMQ}) {
     display: ${props => props.isLogo ? 'block' : props.toggle ? 'block':'none'};
     margin: ${props => props.isLogo ? '0' : '10px auto'};
@@ -37,7 +42,7 @@ const NavbarListItem = styled.li`
     text-align: center;
     height: 50px;
     width: 100%;
-  }
+  };
 `
 
 const NavbarListItemToggle = styled.div`
@@ -50,7 +55,7 @@ const NavbarListItemToggle = styled.div`
     position: absolute;
     top: 35px;
     right: 25px;
-  }
+  };
 `
 
 export default class NavBar extends React.Component {

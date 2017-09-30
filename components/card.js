@@ -8,6 +8,14 @@ const Card = styled.div`
   background-color: white;
   border-top: 4px solid ${config.mainColorLight};
 `
-export default ({children}) => (
-  <Card>{children}</Card>
+const CardTitle = styled.h2`
+  margin: 0 0 25px 0;
+  letter-spacing: 2px;
+  color: ${config.mainColor};
+`
+export default ({children, title}) => (
+  <Card>
+    <CardTitle>{title}</CardTitle>
+    {children}
+  </Card>
 )

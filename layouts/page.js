@@ -14,7 +14,7 @@ const fadeIn = keyframes`
 `
 
 const ContentWrapper = styled.div`
-  animation: ${fadeIn} .6s ease-in forwards;
+  animation: ${fadeIn} .3s ease-in forwards;
 `
 
 const Main = styled.div`
@@ -22,7 +22,7 @@ const Main = styled.div`
   margin: 10px auto;
   margin-top: -220px;
   width: 90%;
-  max-width: 900px;
+  max-width: 1200px;
   color: ${config.darkText};
   @media (max-width: 500px) {
     padding: 0
@@ -35,9 +35,6 @@ const Main = styled.div`
     color: #000;
     text-decoration: none;
   };
-  a:visited {
-    color: ${config.mainColor};
-  }
   img {
     max-width: 100%;
   };
