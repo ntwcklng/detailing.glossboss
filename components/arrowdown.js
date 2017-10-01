@@ -5,7 +5,7 @@ export default ({toggle}) => (
   </svg>
   <style jsx>{`
     svg {
-      height: 40px;
+      height: 30px;
       transition: 200ms ease;
       fill: #4e4e4e;
     }

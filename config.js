@@ -14,7 +14,7 @@ const config = {
   lightText: '#a2a7b8',
   cardShadow: '0px 2px 4px rgba(0,0,0,.18)',
   heroGradient: 'rgba(80, 168, 219, .7)',
-  mobileMQ: '713px',
+  mobileMQ: '773px',
 }
 
 export default config

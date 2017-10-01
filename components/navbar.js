@@ -22,15 +22,17 @@ const NavbarList = styled.ul`
   list-style: none;
   margin: 0;
   padding: 0;
-  height: 100%;
-  min-height: 70px;
+  height: 50px;
+  @media (max-width: ${config.mobileMQ}) {
+    height: 100%;
+  }
 `
 
 const NavbarListItem = styled.li`
   display: inline-block;
   margin-right: 25px;
   padding: 0;
-  transform: ${props => props.isLogo ? '' : 'translateY(-30px)'};
+  transform: ${props => props.isLogo ? '' : 'translateY(-17px)'};
   text-transform: uppercase;
   letter-spacing: 1.5px;
   a {
@@ -57,7 +59,7 @@ const NavbarListItemToggle = styled.div`
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 35px;
+    top: 27px;
     right: 25px;
   };
 `
