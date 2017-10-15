@@ -73,5 +73,16 @@ export default() => (
       <p>Schaue dir dazu dieses Youtube Video an: <a href="https://youtu.be/-6gDw7lzgp4?t=11m11s" target="_blank">Leder nachfärben am Porsche 997 Turbo</a></p>
       <LeistungPreis>ab 200€</LeistungPreis>
     </Card>
+    
+    <Card title="Felgenversiegelung">
+      <p>Versiegelte Felgen lassen sich einfacher reinigen und glänzen besser. Der heiße Bremsstaub kann sich außerdem nicht so schnell in den Lack der Felge einbrennen. Du hast die Wahl zwischen Gtechniq C5 und Gyeon Rim. Beide Versiegelungen wurden von uns mehrfach getestet und garantieren maximale Standzeit.</p>
+      <LeistungPreis>ab 100€</LeistungPreis>
+    </Card>
+    
+    <Card title="Dichtung- und Gummipflege für Oldtimer">
+      <p>Mit der Zeit schwinden die Weichmacher aus den Dichtungen von deinen Oldtimer. Die Folgen sind Wasser bzw. Feuchtigkeitseintritt in den Innenraum und harte bzw. spröde Dichtungen.</p>
+      <p>Damit das langfristig nicht mehr passiert, reinigen und pflegen wir deine Dichtungen und Gummis, damit diese so lang wie möglich geschmeidig bleiben.</p>
+      <LeistungPreis>ab 30€</LeistungPreis>
+    </Card>
   </Page>
 )

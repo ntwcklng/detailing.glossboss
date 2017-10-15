@@ -11,7 +11,7 @@ const config = {
   mainColor: '#50A8DB',
   mainColorLight: '#50A8DB',
   darkText: '#4e4e4e',
-  lightText: '#a2a7b8',
+  lightText: '#616e7a',
   cardShadow: '0px 2px 4px rgba(0,0,0,.18)',
   heroGradient: 'rgba(80, 168, 219, .7)',
   mobileMQ: '773px',
