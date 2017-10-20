@@ -1,12 +1,12 @@
 const config = {
-  title: 'Autopflege Mieth - Aufbereiter in NRW - 46284 Dorsten',
+  title: 'Autopflege Mieth in NRW - 46284 Dorsten und Umgebung',
   navbarLinks: [
     {href: '/leistungen', title: 'Leistungen / Preise'},
     {href: '/referenzen', title: 'Referenzen'},
     {href: '/anfahrt', title: 'Anfahrt'},
     //{href: '/ueber', title: 'Über Mich'},
     {href: '/impressum', title: 'Impressum'},
-    {href: 'mailto:mmieth@gmail.com', title: 'Kontakt'}
+    {href: 'mailto:mmieth+autopflege@gmail.com', title: 'Kontakt'}
   ],
   mainColor: '#50A8DB',
   mainColorLight: '#50A8DB',

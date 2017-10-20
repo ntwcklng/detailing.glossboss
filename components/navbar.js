@@ -36,13 +36,14 @@ const NavbarListItem = styled.li`
   text-transform: uppercase;
   letter-spacing: 1.5px;
   a {
+    color: ${props => props.active ? 'black' : ''};
     text-decoration: none;
   };
   a:hover {
     color: black;
   };
   @media (max-width: ${config.mobileMQ}) {
-    display: ${props => props.isLogo ? 'block' : props.toggle ? 'block':'none'};
+    display: ${props => props.isLogo ? 'block' : props.toggle ? 'block' : 'none'};
     margin: ${props => props.isLogo ? '0' : '10px auto'};
     transform: ${props => props.isLogo ? '' : 'translateY(30px)'};
     text-align: center;
@@ -89,7 +90,7 @@ export default class NavBar extends React.Component {
             <Link href="/" prefetch><a><Logo /></a></Link>
           </NavbarListItem>
           {this.props.links.map(link => (
-            <NavbarListItem key={link.href} toggle={this.state.nav}>
+            <NavbarListItem key={link.href} toggle={this.state.nav} active={link.href === location.pathname}>
               <Link href={link.href} prefetch><a>{link.title}</a></Link>
             </NavbarListItem>
           ))}

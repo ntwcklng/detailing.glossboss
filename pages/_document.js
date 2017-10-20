@@ -9,7 +9,7 @@ injectGlobal`
     line-height: 1.5;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
   };
   * {
     box-sizing: border-box
@@ -35,8 +35,8 @@ export default class MyDocument extends Document {
           <title>{config.title}</title>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/static/favicon.ico" type="image/x-icon" />
-          <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
-          <meta name="description" content="Lackdefekte beseitigen - Keramikversiegelung - Lederreparatur - Autopflege Mieth in 46284 Dorsten" />
+          <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
+          <meta name="description" content="Wir beseitigen Lackdefekte - Tragen Keramikversiegelung auf - Reparieren Leder - Autopflege Mieth in 46284 Dorsten" />
           {styleTags}
         </Head>
         <body>
