@@ -36,7 +36,7 @@ const NavbarListItem = styled.li`
   text-transform: uppercase;
   letter-spacing: 1.5px;
   a {
-    color: ${props => props.active ? 'black' : ''};
+    color: ${props => props.active ? 'black !important' : ''};
     text-decoration: none;
   };
   a:hover {
