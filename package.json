@@ -13,10 +13,10 @@
   "author": "Marvin Mieth <ntwcklng@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "babel-plugin-styled-components": "^1.2.0",
-    "next": "^4.0.1",
+    "babel-plugin-styled-components": "^1.2.1",
+    "next": "^4.1.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "styled-components": "^2.1.2"
+    "styled-components": "^2.2.1"
   }
 }

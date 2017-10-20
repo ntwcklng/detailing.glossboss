@@ -72,7 +72,11 @@ export default class NavBar extends React.Component {
     }
   }
   toggleNav() {
-    this.setState({nav: !this.state.nav})
+    this.setState((prevState, props) => {
+      return {
+        nav: !prevState.nav
+      }
+    })
   }
   render () {
     return (
