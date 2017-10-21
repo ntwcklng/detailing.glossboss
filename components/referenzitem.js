@@ -11,7 +11,7 @@ const ReferenzImage = styled.img`
 `
 
 const ReferenzDesc = styled.p`
-  color: ${config.darkText};
+  color: ${config.lightText};
 `
 
 const ReferenzReadMore = styled.div`

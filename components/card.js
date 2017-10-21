@@ -10,8 +10,9 @@ const Card = styled.div`
 `
 const CardTitle = styled.h2`
   margin: 0 0 25px 0;
-  letter-spacing: 2px;
-  color: ${config.mainColor};
+  letter-spacing: 1px;
+  color: ${config.darkText};
+  font-weight: 400;
 `
 export default ({children, title}) => (
   <Card>

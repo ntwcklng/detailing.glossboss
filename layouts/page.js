@@ -23,7 +23,7 @@ const Main = styled.div`
   margin-top: -220px;
   width: 90%;
   max-width: 1200px;
-  color: ${config.darkText};
+  color: ${config.lightText};
   @media (max-width: 500px) {
     padding: 0
   };
