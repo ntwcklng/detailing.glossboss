@@ -8,7 +8,7 @@ const Item = styled.a`
   padding: 30px;
   text-decoration: none;
   display: inline-block;
-  @media (max-width: 713px) {
+  @media (max-width: ${config.mobileMQ}) {
     padding: 10px; 
   };
 `

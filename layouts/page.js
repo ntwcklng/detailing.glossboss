@@ -35,9 +35,6 @@ const Main = styled.div`
     color: #000;
     text-decoration: none;
   };
-  img {
-    max-width: 100%;
-  };
 `
 export default class Page extends React.Component {
   constructor() {
