@@ -65,6 +65,10 @@ const NavbarListItemToggle = styled.div`
   };
 `
 
+const NavbarListItemLogoWrapper = styled.div`
+  float: left;
+`
+
 export default class NavBar extends React.Component {
   constructor () {
     super()
@@ -87,7 +91,7 @@ export default class NavBar extends React.Component {
         </NavbarListItemToggle>
         <NavbarList>
           <NavbarListItem isLogo={true}>
-            <Link href="/" prefetch><a><Logo /></a></Link>
+            <NavbarListItemLogoWrapper><a href="/"><Logo /></a></NavbarListItemLogoWrapper>
           </NavbarListItem>
           {this.props.links.map(link => (
             <NavbarListItem key={link.href} toggle={this.state.nav} active={link.href === location.pathname}>

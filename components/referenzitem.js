@@ -9,6 +9,9 @@ const ReferenzLink = styled.a`
 const ReferenzImage = styled.img`
   opacity: .9;
   max-width: 100%;
+  &:hover {
+    opacity: 1;
+  };
 `
 
 const ReferenzDesc = styled.p`
