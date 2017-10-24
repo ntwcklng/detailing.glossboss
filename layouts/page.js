@@ -13,12 +13,12 @@ const fadeIn = keyframes`
   to {opacity: 1;}
 `
 
-const ContentWrapper = styled.div`animation: ${fadeIn} 0.3s ease-in forwards;`
+const ContentWrapper = styled.div`animation: ${fadeIn} 0.2s ease-in forwards;`
 
 const Main = styled.div`
   padding: 25px 30px;
   margin: 10px auto;
-  margin-top: -220px;
+  margin-top: -200px;
   width: 90%;
   max-width: 1200px;
   color: ${config.lightText};
