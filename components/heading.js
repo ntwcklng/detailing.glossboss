@@ -1,6 +1,6 @@
 import config from '../config'
 
-export default({children}) => (
+export default ({ children }) => (
   <h1>
     {children}
     <style jsx>{`

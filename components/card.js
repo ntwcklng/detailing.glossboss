@@ -14,7 +14,7 @@ const CardTitle = styled.h2`
   color: ${config.darkText};
   font-weight: 400;
 `
-export default ({children, title}) => (
+export default ({ children, title }) => (
   <Card>
     <CardTitle>{title}</CardTitle>
     {children}

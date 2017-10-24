@@ -9,10 +9,12 @@ const Item = styled.a`
   text-decoration: none;
   display: inline-block;
   @media (max-width: ${config.mobileMQ}) {
-    padding: 10px; 
-  };
+    padding: 10px;
+  }
 `
 
-export default({text, link}) => (
-  <Item href={link} target="_blank">{text}</Item>
+export default ({ text, link }) => (
+  <Item href={link} target="_blank">
+    {text}
+  </Item>
 )

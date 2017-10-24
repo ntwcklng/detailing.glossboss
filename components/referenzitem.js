@@ -7,16 +7,14 @@ const ReferenzLink = styled.a`
 `
 
 const ReferenzImage = styled.img`
-  opacity: .9;
+  opacity: 0.9;
   max-width: 100%;
   &:hover {
     opacity: 1;
-  };
+  }
 `
 
-const ReferenzDesc = styled.p`
-  color: ${config.lightText};
-`
+const ReferenzDesc = styled.p`color: ${config.lightText};`
 
 const ReferenzReadMore = styled.div`
   text-transform: uppercase;
@@ -40,17 +38,23 @@ const ReferenzImageItemWrapper = styled.div`
   @media (max-width: ${config.mobileMQ}) {
     margin: 10px auto;
     flex: 100%;
-  };
+  }
 `
 
-export default({img, link, desc, readMore}) => (
+export default ({ img, link, desc, readMore }) => (
   <ReferenzLink href={link} target="_blank">
     <div className="inner">
       <ReferenzDesc>{desc}</ReferenzDesc>
       <ReferenzImageWrapper>
-        {img.map(img => <ReferenzImageItemWrapper><ReferenzImage src={img} /></ReferenzImageItemWrapper>)}
+        {img.map(img => (
+          <ReferenzImageItemWrapper>
+            <ReferenzImage src={img} />
+          </ReferenzImageItemWrapper>
+        ))}
       </ReferenzImageWrapper>
-      <ReferenzReadMore>{readMore ? {readMore} : 'Bericht ansehen'}</ReferenzReadMore>
+      <ReferenzReadMore>
+        {readMore ? { readMore } : 'Bericht ansehen'}
+      </ReferenzReadMore>
     </div>
   </ReferenzLink>
 )

@@ -15,7 +15,7 @@ const Navbar = styled.div`
   padding: 15px;
   font-size: 15px;
   z-index: 1;
-  box-shadow: 0px 4px 6px -3px rgba(0,0,0,0.30);
+  box-shadow: 0px 4px 6px -3px rgba(0, 0, 0, 0.3);
 `
 
 const NavbarList = styled.ul`
@@ -32,24 +32,25 @@ const NavbarListItem = styled.li`
   display: inline-block;
   margin-right: 25px;
   padding: 0;
-  transform: ${props => props.isLogo ? '' : 'translateY(-17px)'};
+  transform: ${props => (props.isLogo ? '' : 'translateY(-17px)')};
   text-transform: uppercase;
   letter-spacing: 1.5px;
   a {
-    color: ${props => props.active ? 'black !important' : ''};
+    color: ${props => (props.active ? 'black !important' : '')};
     text-decoration: none;
-  };
+  }
   a:hover {
     color: black;
-  };
+  }
   @media (max-width: ${config.mobileMQ}) {
-    display: ${props => props.isLogo ? 'block' : props.toggle ? 'block' : 'none'};
-    margin: ${props => props.isLogo ? '0' : '10px auto'};
-    transform: ${props => props.isLogo ? '' : 'translateY(30px)'};
+    display: ${props =>
+      props.isLogo ? 'block' : props.toggle ? 'block' : 'none'};
+    margin: ${props => (props.isLogo ? '0' : '10px auto')};
+    transform: ${props => (props.isLogo ? '' : 'translateY(30px)')};
     text-align: center;
     height: 50px;
     width: 100%;
-  };
+  }
 `
 
 const NavbarListItemToggle = styled.div`
@@ -62,15 +63,13 @@ const NavbarListItemToggle = styled.div`
     position: absolute;
     top: 27px;
     right: 25px;
-  };
+  }
 `
 
-const NavbarListItemLogoWrapper = styled.div`
-  float: left;
-`
+const NavbarListItemLogoWrapper = styled.div`float: left;`
 
 export default class NavBar extends React.Component {
-  constructor () {
+  constructor() {
     super()
     this.state = {
       nav: false
@@ -83,7 +82,7 @@ export default class NavBar extends React.Component {
       }
     })
   }
-  render () {
+  render() {
     return (
       <Navbar>
         <NavbarListItemToggle onClick={() => this.toggleNav()}>
@@ -91,15 +90,24 @@ export default class NavBar extends React.Component {
         </NavbarListItemToggle>
         <NavbarList>
           <NavbarListItem isLogo={true}>
-            <NavbarListItemLogoWrapper><a href="/"><Logo /></a></NavbarListItemLogoWrapper>
+            <NavbarListItemLogoWrapper>
+              <a href="/">
+                <Logo />
+              </a>
+            </NavbarListItemLogoWrapper>
           </NavbarListItem>
           {this.props.links.map(link => (
-            <NavbarListItem key={link.href} toggle={this.state.nav} active={link.href === location.pathname}>
-              <Link href={link.href} prefetch><a>{link.title}</a></Link>
+            <NavbarListItem
+              key={link.href}
+              toggle={this.state.nav}
+              active={link.href === location.pathname}>
+              <Link href={link.href} prefetch>
+                <a>{link.title}</a>
+              </Link>
             </NavbarListItem>
           ))}
         </NavbarList>
       </Navbar>
-    );
+    )
   }
 }

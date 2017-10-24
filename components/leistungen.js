@@ -4,22 +4,22 @@ import config from '../config'
 export const LeistungList = styled.ul`
   margin: 20px;
   padding: 0;
-  list-style:none;
+  list-style: none;
   color: ${config.lightText};
 `
 
 export const LeistungListItem = styled.li`
   &:before {
-  content: '';
-  display: inline-block;
-  height: 1em;
-  width: 1em;
-  background-image: url(/static/check.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-right:0.5em;
-  margin-top: 10px;
-  transform: translate(0,2px);
+    content: '';
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    background-image: url(/static/check.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 0.5em;
+    margin-top: 10px;
+    transform: translate(0, 2px);
   }
 `
 

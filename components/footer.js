@@ -12,10 +12,16 @@ const Footer = styled.div`
   }
 `
 
-export default() => (
+export default () => (
   <Footer>
-    <SocialItem text="Facebook" link="https://www.facebook.com/aufbereitung.mieth" />
-    <SocialItem text="Youtube" link="https://www.youtube.com/user/glossbossblog" />
+    <SocialItem
+      text="Facebook"
+      link="https://www.facebook.com/aufbereitung.mieth"
+    />
+    <SocialItem
+      text="Youtube"
+      link="https://www.youtube.com/user/glossbossblog"
+    />
     <SocialItem text="Blog" link="https://glossboss.de" />
   </Footer>
 )
