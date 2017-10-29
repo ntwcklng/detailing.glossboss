@@ -102,7 +102,7 @@ export default class NavBar extends React.Component {
               toggle={this.state.nav}
               active={link.href === location.pathname}>
               <Link href={link.href} prefetch>
-                <a>{link.title}</a>
+                <a alt="Startseite">{link.title}</a>
               </Link>
             </NavbarListItem>
           ))}
