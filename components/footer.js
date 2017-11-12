@@ -1,12 +1,13 @@
 import styled from 'styled-components'
 
 import SocialItem from './socialitem.js'
+import Zertifiziert from './zertifiziert'
 import config from '../config'
 
 const Footer = styled.div`
   text-align: center;
   color: ${config.lightText};
-  margin: 30px;
+  margin: 30px 0;
   @media (max-width: 500px) {
     margin: 5px;
   }
@@ -14,6 +15,7 @@ const Footer = styled.div`
 
 export default () => (
   <Footer>
+    <Zertifiziert />
     <SocialItem
       text="Facebook"
       link="https://www.facebook.com/aufbereitung.mieth"
