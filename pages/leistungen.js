@@ -12,6 +12,7 @@ import {
 
 export default () => (
   <Page title="Leistungen / Preise">
+
     <Card title="Polieren - Defektkorrektur">
       <p>
         Wir entfernen feine Kratzer (Waschanlagenkratzer, Swirls) und
@@ -178,5 +179,12 @@ export default () => (
       </p>
       <LeistungPreis>ab 30€</LeistungPreis>
     </Card>
+    
+    {/* <Card title="Master Paket" highlight={true}>
+      <p>Begrenzt auf wenige Autos im Jahr ist das Master Paket die absolute Endstufe des machbaren. Dein Lack wird in bis zu 5 Durchgängen bis zur perfektion Poliert. </p>
+      <p>Für weitere Infos kontaktiere uns und wir finden die beste Lösung für dein Fahrzeug.</p>
+      <p>Für 2018 nurnoch <strong>1 von 3</strong> verfügbar</p>
+      <LeistungPreis>ab 2500€</LeistungPreis>
+    </Card> */}
   </Page>
 )

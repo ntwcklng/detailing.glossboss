@@ -5,7 +5,6 @@ export const LeistungList = styled.ul`
   margin: 20px;
   padding: 0;
   list-style: none;
-  color: ${config.lightText};
 `
 
 export const LeistungListItem = styled.li`
@@ -25,7 +24,7 @@ export const LeistungListItem = styled.li`
 
 export const LeistungPreis = styled.h2`
   margin: 20px 0;
-  color: ${config.lightText};
+  ${'' /* color: ${config.lightText}; */}
   padding: 0;
   text-align: right;
   font-weight: 300;
