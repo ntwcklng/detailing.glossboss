@@ -7,7 +7,8 @@ import Card from '../components/card'
 export default () => (
   <Page
     title="Referenzen"
-    subTitle="Hier findest du eine kleine Auswahl an Fahrzeugen die ich schon pflegen durfte.">
+    subTitle="Hier findest du eine kleine Auswahl an Fahrzeugen die ich schon pflegen durfte."
+  >
     <Card title="Porsche 996 Turbo">
       <ReferenzItem
         img={[

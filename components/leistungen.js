@@ -24,8 +24,7 @@ export const LeistungListItem = styled.li`
 
 export const LeistungPreis = styled.h2`
   margin: 20px 0;
-  ${'' /* color: ${config.lightText}; */}
-  padding: 0;
+  ${'' /* color: ${config.lightText}; */} padding: 0;
   text-align: right;
   font-weight: 300;
 `

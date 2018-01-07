@@ -5,8 +5,9 @@ import config from '../config'
 
 const Hero = styled.div`
   height: 500px;
-  background-image: linear-gradient(${config.heroGradient}, ${config.heroGradient}), url("${props =>
-  props.image}");
+  background-image: linear-gradient(${config.heroGradient}, ${
+  config.heroGradient
+}), url("${props => props.image}");
   background-size: cover;
 `
 const Title = styled.h1`

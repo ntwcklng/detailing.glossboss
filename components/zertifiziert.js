@@ -11,4 +11,3 @@ export default () => (
     <Image src="/static/gtechniq-logo.jpg" alt="Gtechniq Zertifizierung" />
   </Card>
 )
-

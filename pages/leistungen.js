@@ -12,7 +12,6 @@ import {
 
 export default () => (
   <Page title="Leistungen / Preise">
-
     <Card title="Polieren - Defektkorrektur">
       <p>
         Wir entfernen feine Kratzer (Waschanlagenkratzer, Swirls) und
@@ -93,17 +92,20 @@ export default () => (
         schaue dir ein paar Arbeitsbeispiele an:{' '}
         <a
           href="https://glossboss.de/pflegeberichte/porsche-997-grau-crystal-serum-gtechniq/"
-          target="_blank">
+          target="_blank"
+        >
           Porsche 997 Grau
         </a>,{' '}
         <a
           href="https://glossboss.de/pflegeberichte/crystal-serum-nach-2-jahren/"
-          target="_blank">
+          target="_blank"
+        >
           Porsche 997 Grau nach 2 Jahren
         </a>,{' '}
         <a
           href="https://glossboss.de/pflegeberichte/video-porsche-996-turbo-gtechniq-crystal-serum-exo/"
-          target="_blank">
+          target="_blank"
+        >
           Porsche 996 Turbo
         </a>
       </p>
@@ -111,7 +113,7 @@ export default () => (
       <LeistungList>
         <LeistungListItem>1-Stufige Defektkorrektur</LeistungListItem>
         <LeistungListItem>
-          Lackversiegelung mit Gtechniq Crystal Serum + Exo
+          Lackversiegelung mit Gtechniq Crystal Serum Ultra + Exo
         </LeistungListItem>
         <LeistungListItem>
           Ca. 2-3 Jahre realistische Standzeit
@@ -128,7 +130,7 @@ export default () => (
       </p>
       <LeistungList>
         <LeistungListItem>
-          Lackversiegelung mit Gyeon Mohs(+) oder Prime
+          Lackversiegelung mit Gyeon Duraflex oder Pure
         </LeistungListItem>
         <LeistungListItem>Scheibenversiegelung mit Gyeon View</LeistungListItem>
         <LeistungListItem>Felgenversiegelung mit Gyeon Rim</LeistungListItem>
@@ -179,7 +181,7 @@ export default () => (
       </p>
       <LeistungPreis>ab 30€</LeistungPreis>
     </Card>
-    
+
     {/* <Card title="Master Paket" highlight={true}>
       <p>Begrenzt auf wenige Autos im Jahr ist das Master Paket die absolute Endstufe des machbaren. Dein Lack wird in bis zu 5 Durchgängen bis zur perfektion Poliert. </p>
       <p>Für weitere Infos kontaktiere uns und wir finden die beste Lösung für dein Fahrzeug.</p>

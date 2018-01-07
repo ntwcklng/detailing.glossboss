@@ -14,7 +14,9 @@ const ReferenzImage = styled.img`
   }
 `
 
-const ReferenzDesc = styled.p`color: ${config.lightText};`
+const ReferenzDesc = styled.p`
+  color: ${config.lightText};
+`
 
 const ReferenzReadMore = styled.div`
   text-transform: uppercase;

@@ -66,7 +66,9 @@ const NavbarListItemToggle = styled.div`
   }
 `
 
-const NavbarListItemLogoWrapper = styled.div`float: left;`
+const NavbarListItemLogoWrapper = styled.div`
+  float: left;
+`
 
 export default class NavBar extends React.Component {
   constructor() {
@@ -100,7 +102,8 @@ export default class NavBar extends React.Component {
             <NavbarListItem
               key={link.href}
               toggle={this.state.nav}
-              active={link.href === location.pathname}>
+              active={link.href === location.pathname}
+            >
               <Link href={link.href} prefetch>
                 <a alt="Startseite">{link.title}</a>
               </Link>
