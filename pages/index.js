@@ -8,7 +8,7 @@ export default () => (
     subTitle="Dein Ansprechpartner für Keramik / Siliziumversiegelung und Lackaufbereitung im Ruhrgebiet"
   >
     <Card title="Einblick in unsere Arbeit">
-      <Video link="https://www.youtube.com/embed/BYCaH_K57P4" />
+      <Video link="https://www.youtube.com/embed/2tXlH3LhgDE" />
     </Card>
   </Page>
 )
