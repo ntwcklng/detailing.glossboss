@@ -49,7 +49,7 @@ export default () => (
       </p>
       <LeistungList>
         <LeistungListItem>Gtechniq Crystal Serum (+ Exo)</LeistungListItem>
-        <LeistungListItem>Gyeon Prime/Mohs</LeistungListItem>
+        <LeistungListItem>Gyeon Duraflex/Pure</LeistungListItem>
         <LeistungListItem>Weitere auf Anfrage</LeistungListItem>
       </LeistungList>
       <p>
@@ -86,10 +86,11 @@ export default () => (
 
     <Card title="Gtechniq Crystal Serum Paket">
       <p>
-        Die längste Standzeit, der beste Schutz und das schönste
-        Wasserablaufverhalten. Das Crystal Serum von Gtechniq ist ohne Zweifel
-        die beste Versiegelung die es momentan gibt. Überzeuge dich selbst und
-        schaue dir ein paar Arbeitsbeispiele an:{' '}
+        Sehr lange Standzeit, tolles Wasserablaufverhalten und kreisrunde
+        Wasserperlen. Das Gtechniq Crystal Serum Ultra (+Exo) spielt in der
+        obersten Liga und hat lange Zeit Maßstäbe für Keramische Versiegelung
+        gesetzt. Überzeuge dich selbst und schaue dir ein paar Arbeitsbeispiele
+        an:{' '}
         <a
           href="https://glossboss.de/pflegeberichte/porsche-997-grau-crystal-serum-gtechniq/"
           target="_blank"
@@ -122,16 +123,35 @@ export default () => (
       <LeistungPreis>ab 850€</LeistungPreis>
     </Card>
 
-    <Card title="Gyeon Paket">
+    <Card title="Gyeon Duraflex Paket">
+      <p>
+        Die längste Standzeit, der beste Schutz und das schönste
+        Wasserablaufverhalten. Das Duraflex von Gyeon ist ohne Zweifel die beste
+        Versiegelung die es momentan gibt. Der Lack bleibt anders als bei
+        anderen keramischen Versiegelungen (wie z.B. Crystal Serum + Exo) schön
+        weich
+      </p>
+
+      <LeistungList>
+        <LeistungListItem>1-Stufige Defektkorrektur</LeistungListItem>
+        <LeistungListItem>
+          Lackversiegelung mit Gyeon Duraflex (1 Schicht Base + 1 Schicht Flexi)
+        </LeistungListItem>
+        <LeistungListItem>
+          Ca. 3-3,5 Jahre realistische Standzeit (Herstellerangabe: 60 Monate!)
+        </LeistungListItem>
+      </LeistungList>
+      <LeistungPreis>ab 900€</LeistungPreis>
+    </Card>
+
+    <Card title="Gyeon Paket (Budget)">
       <p>
         Dein Auto wird mit Mitteln aus dem Hause Gyeon gepflegt und 1-Stufig
         Poliert. Natürlich individuell erweiterbar und auf deinem Fahrzeug
         angepasst. Das Gyeon Paket könnte wiefolgt aussehen:
       </p>
       <LeistungList>
-        <LeistungListItem>
-          Lackversiegelung mit Gyeon Duraflex oder Pure
-        </LeistungListItem>
+        <LeistungListItem>Lackversiegelung mit Gyeon Pure</LeistungListItem>
         <LeistungListItem>Scheibenversiegelung mit Gyeon View</LeistungListItem>
         <LeistungListItem>Felgenversiegelung mit Gyeon Rim</LeistungListItem>
         <LeistungListItem>
