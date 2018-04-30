@@ -10,10 +10,7 @@ export default () => (
       </p>
       <p>
         Telefon: 01703262412 (Kontakt via eMail wird bevorzugt!)<br />
-        E-Mail:{' '}
-        <a href="mailto:mmieth+autopflege@gmail.com">
-          mmieth+autopflege @ gmail.com
-        </a>
+        E-Mail: <a href="mailto:marvin@glossboss.de">marvin@glossboss.de</a>
         <br />
       </p>
       <br />
