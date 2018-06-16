@@ -6,7 +6,7 @@ const config = {
     { href: '/anfahrt', title: 'Anfahrt' },
     //{href: '/ueber', title: 'Über Mich'},
     { href: '/impressum', title: 'Impressum' },
-    { href: 'mailto:mmieth+autopflege@gmail.com', title: 'Kontakt' }
+    { href: 'mailto:marvin@glossboss.de', title: 'Kontakt' }
   ],
   mainColor: '#50A8DB',
   mainColorLight: '#50A8DB',
