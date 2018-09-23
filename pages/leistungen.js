@@ -87,22 +87,24 @@ export default () => (
     <Card title="Gtechniq Crystal Serum Paket">
       <p>
         Sehr lange Standzeit, tolles Wasserablaufverhalten und kreisrunde
-        Wasserperlen. Das Gtechniq Crystal Serum Ultra (+Exo) spielt in der
-        obersten Liga und hat lange Zeit Maßstäbe für Keramische Versiegelung
-        gesetzt. Überzeuge dich selbst und schaue dir ein paar Arbeitsbeispiele
-        an:{' '}
+        Wasserperlen. Das Gtechniq Crystal Serum Light/Ultra (+Exo) spielt in
+        der obersten Liga und hat lange Zeit Maßstäbe für Keramische
+        Versiegelung gesetzt. Überzeuge dich selbst und schaue dir ein paar
+        Arbeitsbeispiele an:{' '}
         <a
           href="https://glossboss.de/pflegeberichte/porsche-997-grau-crystal-serum-gtechniq/"
           target="_blank"
         >
           Porsche 997 Grau
-        </a>,{' '}
+        </a>
+        ,{' '}
         <a
           href="https://glossboss.de/pflegeberichte/crystal-serum-nach-2-jahren/"
           target="_blank"
         >
           Porsche 997 Grau nach 2 Jahren
-        </a>,{' '}
+        </a>
+        ,{' '}
         <a
           href="https://glossboss.de/pflegeberichte/video-porsche-996-turbo-gtechniq-crystal-serum-exo/"
           target="_blank"
@@ -114,13 +116,13 @@ export default () => (
       <LeistungList>
         <LeistungListItem>1-Stufige Defektkorrektur</LeistungListItem>
         <LeistungListItem>
-          Lackversiegelung mit Gtechniq Crystal Serum Ultra + Exo
+          Lackversiegelung mit Gtechniq Crystal Serum Light/Ultra + Exo
         </LeistungListItem>
         <LeistungListItem>
           Ca. 2-3 Jahre realistische Standzeit
         </LeistungListItem>
       </LeistungList>
-      <LeistungPreis>ab 850€</LeistungPreis>
+      <LeistungPreis>ab 900€</LeistungPreis>
     </Card>
 
     <Card title="Gyeon Duraflex Paket">
@@ -138,7 +140,7 @@ export default () => (
           Lackversiegelung mit Gyeon Duraflex (1 Schicht Base + 1 Schicht Flexi)
         </LeistungListItem>
         <LeistungListItem>
-          Ca. 3-3,5 Jahre realistische Standzeit (Herstellerangabe: 60 Monate!)
+          Ca. 2-2,5 Jahre realistische Standzeit (Herstellerangabe: 60 Monate!)
         </LeistungListItem>
       </LeistungList>
       <LeistungPreis>ab 900€</LeistungPreis>
