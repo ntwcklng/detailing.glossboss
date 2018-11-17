@@ -5,19 +5,16 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "deploy": "now --regions bru && now alias && now rm autopflege-mieth --safe"
-  },
-  "now": {
-    "alias": "autopflegemieth.de"
+    "deploy": "now && now alias && now rm autopflege-mieth --safe"
   },
   "author": "Marvin Mieth <ntwcklng@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "babel-plugin-styled-components": "^1.7.1",
-    "next": "^7.0.0",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
-    "styled-components": "^3.4.9"
+    "babel-plugin-styled-components": "^1.8.0",
+    "next": "^7.0.2",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "styled-components": "^4.0.3"
   },
   "prettier": {
     "semi": false,

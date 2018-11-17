@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'next/prefetch'
+import Link from 'next/link'
 import Router from 'next/router'
 import styled, { keyframes } from 'styled-components'
 
