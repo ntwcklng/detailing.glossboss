@@ -1,10 +1,26 @@
 import React from 'react'
 import Link from 'next/link'
-import styled from 'styled-components'
+import styled, { ServerStyleSheet, createGlobalStyle } from 'styled-components'
 
 import Logo from '../components/logo'
 import config from '../config'
 import ArrowDown from './arrowdown'
+
+const GlobalStyle = createGlobalStyle`
+body {
+  background-color: #fafbff;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto";
+  text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+};
+* {
+  box-sizing: border-box
+};
+`
 
 const Navbar = styled.div`
   position: fixed;
@@ -87,6 +103,7 @@ export default class NavBar extends React.Component {
   render() {
     return (
       <Navbar>
+        <GlobalStyle />
         <NavbarListItemToggle onClick={() => this.toggleNav()}>
           <ArrowDown toggle={this.state.nav} />
         </NavbarListItemToggle>

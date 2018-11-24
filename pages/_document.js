@@ -1,29 +1,17 @@
 import Document, { Head, Main, NextScript } from 'next/document'
-import { ServerStyleSheet, injectGlobal } from 'styled-components'
+import { ServerStyleSheet } from 'styled-components'
 import config from '../config'
 
-injectGlobal`
-  body {
-    background-color: #fafbff;
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto";
-    text-rendering:optimizeLegibility;
-    -webkit-font-smoothing:antialiased;
-  };
-  * {
-    box-sizing: border-box
-  };
-
-`
-
 export default class MyDocument extends Document {
-  render() {
+  static getInitialProps({ renderPage }) {
     const sheet = new ServerStyleSheet()
-    const main = sheet.collectStyles(<Main />)
+    const page = renderPage(App => props =>
+      sheet.collectStyles(<App {...props} />)
+    )
     const styleTags = sheet.getStyleElement()
+    return { ...page, styleTags }
+  }
+  render() {
     return (
       <html lang="de">
         <Head>
@@ -35,10 +23,10 @@ export default class MyDocument extends Document {
             name="description"
             content="Wir beseitigen Lackdefekte - Tragen Keramikversiegelung auf - Reparieren Leder - Autopflege Mieth in 46284 Dorsten"
           />
-          {styleTags}
         </Head>
         <body>
-          <div className="root">{main}</div>
+          {this.props.styleTags}
+          <Main />
           <NextScript />
         </body>
       </html>
