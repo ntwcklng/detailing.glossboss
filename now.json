@@ -2,5 +2,12 @@
     "name": "autopflege-mieth",
     "type": "static",
     "alias": "autopflegemieth.de",
-    "regions": "bru"
+    "version": 2,
+    "regions": ["bru"],
+     "builds": [
+        {
+            "src": "package.json",
+            "use": "@now/static-build"
+        }
+    ]
 }
