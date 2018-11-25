@@ -5,7 +5,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "deploy": "next build && next export && now deploy out --name autopflege-mieth",
+    "deploy": "next build && next export && now deploy out --name autopflege-mieth -V 1 --regions bru",
     "alias": "now alias && now rm autopflege-mieth --safe",
     "export": "next export"
   },
