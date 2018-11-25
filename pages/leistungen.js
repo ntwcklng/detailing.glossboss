@@ -50,6 +50,7 @@ export default () => (
       <LeistungList>
         <LeistungListItem>Gtechniq Crystal Serum (+ Exo)</LeistungListItem>
         <LeistungListItem>Gyeon Duraflex/Pure</LeistungListItem>
+        <LeistungListItem>Servfaces Ultima</LeistungListItem>
         <LeistungListItem>Weitere auf Anfrage</LeistungListItem>
       </LeistungList>
       <p>
@@ -204,11 +205,20 @@ export default () => (
       <LeistungPreis>ab 30€</LeistungPreis>
     </Card>
 
-    {/* <Card title="Master Paket" highlight={true}>
-      <p>Begrenzt auf wenige Autos im Jahr ist das Master Paket die absolute Endstufe des machbaren. Dein Lack wird in bis zu 5 Durchgängen bis zur perfektion Poliert. </p>
-      <p>Für weitere Infos kontaktiere uns und wir finden die beste Lösung für dein Fahrzeug.</p>
-      <p>Für 2018 nurnoch <strong>1 von 3</strong> verfügbar</p>
+    <Card title="Master Paket" highlight={true}>
+      <p>
+        Begrenzt auf wenige Autos im Jahr ist das Master Paket die absolute
+        Endstufe des machbaren. Dein Lack wird in bis zu 5 Durchgängen bis zur
+        perfektion Poliert und mit einem Lackschutz deiner Wahl veredelt.{' '}
+      </p>
+      <p>
+        Für weitere Infos kontaktiere uns und wir finden die beste Lösung für
+        dein Fahrzeug.
+      </p>
+      <p>
+        Für 2019 nur noch <strong>2 von 4</strong> verfügbar
+      </p>
       <LeistungPreis>ab 2500€</LeistungPreis>
-    </Card> */}
+    </Card>
   </Page>
 )
