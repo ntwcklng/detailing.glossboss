@@ -5,8 +5,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "deploy": "now && now alias && now rm autopflege-mieth --safe",
-    "deploy:static": "next build && next export && now out && now alias && now rm autopflege-mieth --safe",
+    "deploy": "next build && next export && now deploy out --name autopflege-mieth",
+    "alias": "now alias && now rm autopflege-mieth --safe",
     "export": "next export"
   },
   "author": "Marvin Mieth <ntwcklng@gmail.com>",
@@ -21,9 +21,5 @@
   "prettier": {
     "semi": false,
     "singleQuote": true
-  },
-  "now": {
-    "alias": "autopflegemieth.de",
-    "version": 1
   }
 }

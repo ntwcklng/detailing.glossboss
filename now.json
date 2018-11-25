@@ -1,4 +1,6 @@
 {
+    "name": "autopflege-mieth",
+    "type": "static",
     "alias": "autopflegemieth.de",
-    "version": 1
+    "regions": "bru"
 }
