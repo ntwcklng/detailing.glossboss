@@ -51,6 +51,7 @@ export default () => (
         <LeistungListItem>Gtechniq Crystal Serum (+ Exo)</LeistungListItem>
         <LeistungListItem>Gyeon Duraflex/Pure</LeistungListItem>
         <LeistungListItem>Servfaces Ultima</LeistungListItem>
+        <LeistungListItem>Nanolex Si3d HD</LeistungListItem>
         <LeistungListItem>Weitere auf Anfrage</LeistungListItem>
       </LeistungList>
       <p>
@@ -80,6 +81,7 @@ export default () => (
         <LeistungListItem>Zymöl Carbon</LeistungListItem>
         <LeistungListItem>Swizöl Best of Show</LeistungListItem>
         <LeistungListItem>Swizöl Blau-Weiß</LeistungListItem>
+        <LeistungListItem>Swizöl Shield</LeistungListItem>
         <LeistungListItem>Weitere auf Anfrage</LeistungListItem>
       </LeistungList>
       <LeistungPreis>ab 100€</LeistungPreis>
@@ -145,23 +147,6 @@ export default () => (
         </LeistungListItem>
       </LeistungList>
       <LeistungPreis>ab 900€</LeistungPreis>
-    </Card>
-
-    <Card title="Gyeon Paket (Budget)">
-      <p>
-        Dein Auto wird mit Mitteln aus dem Hause Gyeon gepflegt und 1-Stufig
-        Poliert. Natürlich individuell erweiterbar und auf deinem Fahrzeug
-        angepasst. Das Gyeon Paket könnte wiefolgt aussehen:
-      </p>
-      <LeistungList>
-        <LeistungListItem>Lackversiegelung mit Gyeon Pure</LeistungListItem>
-        <LeistungListItem>Scheibenversiegelung mit Gyeon View</LeistungListItem>
-        <LeistungListItem>Felgenversiegelung mit Gyeon Rim</LeistungListItem>
-        <LeistungListItem>
-          Kunststoffversiegelung mit Gyeon Trim
-        </LeistungListItem>
-      </LeistungList>
-      <LeistungPreis>ab 650€</LeistungPreis>
     </Card>
 
     <Card title="Lederreinigung / Lederreperatur">
