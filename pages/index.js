@@ -4,7 +4,7 @@ import Card from '../components/card'
 
 export default () => (
   <Page
-    title="Willkommen bei Autopflege Mieth"
+    title="Willkommen bei GLOSSBOSS Detailing"
     subTitle="Dein Ansprechpartner für Keramik / Siliziumversiegelung und Lackaufbereitung im Ruhrgebiet"
   >
     <Card title="Einblick in unsere Arbeit">

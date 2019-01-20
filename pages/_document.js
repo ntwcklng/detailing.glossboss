@@ -15,7 +15,6 @@ export default class MyDocument extends Document {
     return (
       <html lang="de">
         <Head>
-          <title>{config.title}</title>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="theme-color" content={config.mainColor} />
           <link rel="icon" href="/static/favicon.ico" type="image/x-icon" />

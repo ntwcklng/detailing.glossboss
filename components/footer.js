@@ -16,13 +16,14 @@ const Footer = styled.div`
 export default () => (
   <Footer>
     <Zertifiziert />
+    <SocialItem text="Facebook" link="https://www.facebook.com/glossboss.de" />
     <SocialItem
-      text="Facebook"
-      link="https://www.facebook.com/aufbereitung.mieth"
+      text="Instagram"
+      link="https://www.instagram.com/glossboss.de"
     />
     <SocialItem
       text="Youtube"
-      link="https://www.youtube.com/user/glossbossblog"
+      link="https://www.youtube.com/user/glossboss.de"
     />
     <SocialItem text="Blog" link="https://glossboss.de" />
   </Footer>

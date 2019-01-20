@@ -48,7 +48,7 @@ const NavbarListItem = styled.li`
   display: inline-block;
   margin-right: 25px;
   padding: 0;
-  transform: ${props => (props.isLogo ? '' : 'translateY(-17px)')};
+  transform: ${props => (props.isLogo ? '' : 'translateY(-22px)')};
   text-transform: uppercase;
   letter-spacing: 1.5px;
   a {

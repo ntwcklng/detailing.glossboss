@@ -1,20 +1,20 @@
 {
-  "name": "autopflege-mieth",
+  "name": "detailing.glossboss",
   "version": "0.0.1",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "deploy:old": "next build && next export && now deploy out --name autopflege-mieth -V 1 --regions bru",
+    "deploy:old": "next build && next export && now deploy out --name detailing.glossboss -V 1 --regions bru",
     "deploy": "now",
-    "alias": "now alias && now rm autopflege-mieth --safe",
+    "alias": "now alias && now rm detailing.glossboss --safe",
     "export": "next export",
     "now-build": "next build && next export -o dist"
   },
   "author": "Marvin Mieth <ntwcklng@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "babel-plugin-styled-components": "^1.8.0",
+    "babel-plugin-styled-components": "1.8.0",
     "next": "^7.0.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
