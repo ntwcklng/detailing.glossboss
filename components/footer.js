@@ -21,10 +21,7 @@ export default () => (
       text="Instagram"
       link="https://www.instagram.com/glossboss.de"
     />
-    <SocialItem
-      text="Youtube"
-      link="https://www.youtube.com/user/glossboss.de"
-    />
+    <SocialItem text="Youtube" link="https://www.youtube.com/glossbossde" />
     <SocialItem text="Blog" link="https://glossboss.de" />
   </Footer>
 )
