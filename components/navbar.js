@@ -8,7 +8,7 @@ import ArrowDown from './arrowdown'
 
 const GlobalStyle = createGlobalStyle`
 body {
-  background-color: #fafbff;
+  background-color: ${config.backgroundColor};
   font-size: 16px;
   line-height: 1.5;
   margin: 0;
@@ -32,6 +32,7 @@ const Navbar = styled.div`
   font-size: 15px;
   z-index: 1;
   box-shadow: 0px 4px 6px -3px rgba(0, 0, 0, 0.3);
+  background: ${config.cardBackground};
 `
 
 const NavbarList = styled.ul`
@@ -52,11 +53,11 @@ const NavbarListItem = styled.li`
   text-transform: uppercase;
   letter-spacing: 1.5px;
   a {
-    color: ${props => (props.active ? 'black !important' : '')};
+    color: ${props => (props.active ? 'white !important' : '')};
     text-decoration: none;
   }
   a:hover {
-    color: black;
+    color: white;
   }
   @media (max-width: ${config.mobileMQ}) {
     display: ${props =>

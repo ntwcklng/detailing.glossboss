@@ -4,6 +4,7 @@ export default () => (
     <style jsx>{`
       img {
         display: block;
+        fill: white;
         width: 90px;
         height: 50px;
       }

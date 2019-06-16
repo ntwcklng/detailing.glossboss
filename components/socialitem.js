@@ -8,6 +8,8 @@ const Item = styled.a`
   padding: 30px;
   text-decoration: none;
   display: inline-block;
+  text-transform: uppercase;
+  font-weight: 600;
   @media (max-width: ${config.mobileMQ}) {
     padding: 10px;
   }

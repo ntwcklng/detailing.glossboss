@@ -28,11 +28,11 @@ const Main = styled.div`
     padding: 0;
   }
   a {
-    color: ${config.mainColor};
+    color: ${config.lightText};
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   }
   a:hover {
-    color: #000;
+    color: #fff;
     text-decoration: none;
   }
 `

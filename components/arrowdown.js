@@ -12,7 +12,7 @@ export default ({ toggle }) => (
       svg {
         height: 30px;
         transition: 200ms ease;
-        fill: #4e4e4e;
+        fill: #fff;
       }
       svg.isToggled {
         transform: rotate(180deg);

@@ -48,10 +48,10 @@ export default () => (
         kannst wählen zwischen:
       </p>
       <LeistungList>
+        <LeistungListItem>Nanolex Si3d HD</LeistungListItem>
+        <LeistungListItem>Servfaces Ultima</LeistungListItem>
         <LeistungListItem>Gtechniq Crystal Serum (+ Exo)</LeistungListItem>
         <LeistungListItem>Gyeon Duraflex/Pure</LeistungListItem>
-        <LeistungListItem>Servfaces Ultima</LeistungListItem>
-        <LeistungListItem>Nanolex Si3d HD</LeistungListItem>
         <LeistungListItem>Weitere auf Anfrage</LeistungListItem>
       </LeistungList>
       <p>
@@ -87,66 +87,39 @@ export default () => (
       <LeistungPreis>ab 100€</LeistungPreis>
     </Card>
 
-    <Card title="Gtechniq Crystal Serum Paket">
+    <Card title="Nanolex Si3d HD Ultra Paket">
       <p>
-        Sehr lange Standzeit, tolles Wasserablaufverhalten und kreisrunde
-        Wasserperlen. Das Gtechniq Crystal Serum Light/Ultra (+Exo) spielt in
-        der obersten Liga und hat lange Zeit Maßstäbe für Keramische
-        Versiegelung gesetzt. Überzeuge dich selbst und schaue dir ein paar
-        Arbeitsbeispiele an:{' '}
-        <a
-          href="https://glossboss.de/pflegeberichte/porsche-997-grau-crystal-serum-gtechniq/"
-          target="_blank"
-        >
-          Porsche 997 Grau
-        </a>
-        ,{' '}
-        <a
-          href="https://glossboss.de/pflegeberichte/crystal-serum-nach-2-jahren/"
-          target="_blank"
-        >
-          Porsche 997 Grau nach 2 Jahren
-        </a>
-        ,{' '}
-        <a
-          href="https://glossboss.de/pflegeberichte/video-porsche-996-turbo-gtechniq-crystal-serum-exo/"
-          target="_blank"
-        >
-          Porsche 996 Turbo
-        </a>
+        Die längste Standzeit, der beste Schutz und das schönste
+        Wasserablaufverhalten - das ist nur möglich mit der Highend Versiegelung vom deutschen Hersteller Nanolex. 
       </p>
 
       <LeistungList>
         <LeistungListItem>1-Stufige Defektkorrektur</LeistungListItem>
         <LeistungListItem>
-          Lackversiegelung mit Gtechniq Crystal Serum Light/Ultra + Exo
+          Lackversiegelung mit Nanolex Si3d HD Ultra (1 Schicht Si3d BaseCoat + 1 Schicht Si3D HD)
         </LeistungListItem>
         <LeistungListItem>
-          Ca. 2-3 Jahre realistische Standzeit
+          Standzeit: ca. 30-50 Wäschen
         </LeistungListItem>
       </LeistungList>
       <LeistungPreis>ab 900€</LeistungPreis>
     </Card>
 
-    <Card title="Gyeon Duraflex Paket">
+    <Card title="Nanolex/ServFaces 1 Schicht Keramikbeschichtung">
       <p>
-        Die längste Standzeit, der beste Schutz und das schönste
-        Wasserablaufverhalten. Das Duraflex von Gyeon ist ohne Zweifel die beste
-        Versiegelung die es momentan gibt. Der Lack bleibt anders als bei
-        anderen keramischen Versiegelungen (wie z.B. Crystal Serum + Exo) schön
-        weich
+        Die kostengünstigere alternative mit einer Schicht
       </p>
 
       <LeistungList>
         <LeistungListItem>1-Stufige Defektkorrektur</LeistungListItem>
         <LeistungListItem>
-          Lackversiegelung mit Gyeon Duraflex (1 Schicht Base + 1 Schicht Flexi)
+          Lackversiegelung mit Nanolex Si3d HD oder ServFaces Ultima
         </LeistungListItem>
         <LeistungListItem>
-          Ca. 2-2,5 Jahre realistische Standzeit (Herstellerangabe: 60 Monate!)
+          Standzeit: ca. 20-25 Wäschen
         </LeistungListItem>
       </LeistungList>
-      <LeistungPreis>ab 900€</LeistungPreis>
+      <LeistungPreis>ab 600€</LeistungPreis>
     </Card>
 
     <Card title="Lederreinigung / Lederreperatur">
@@ -201,7 +174,7 @@ export default () => (
         dein Fahrzeug.
       </p>
       <p>
-        Für 2019 nur noch <strong>2 von 4</strong> verfügbar
+        Für 2019 nur noch <strong>0 von 4</strong> verfügbar
       </p>
       <LeistungPreis>ab 2500€</LeistungPreis>
     </Card>

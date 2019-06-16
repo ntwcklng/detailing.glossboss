@@ -5,10 +5,11 @@ import config from '../config'
 
 const Hero = styled.div`
   height: 500px;
-  background-image: linear-gradient(${config.heroGradient}, ${
-  config.heroGradient
+  background-image: linear-gradient(${config.heroGradientTop}, ${
+  config.heroGradientBottom
 }), url("${props => props.image}");
   background-size: cover;
+background-position: center;
 `
 const Title = styled.h1`
   position: relative;
@@ -25,7 +26,6 @@ const Title = styled.h1`
     }
   }
   @media (max-width: ${config.mobileMQ}) {
-    top: 30%;
     font-size: 24px;
   }
 `
@@ -34,7 +34,8 @@ const heroImages = [
   'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche993_schwarz_csl_exo/DSC01893.jpg',
   'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/996turbo-bilder/DSC02070.jpg',
   'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/997-grau-serum-2/DSC02013.jpg',
-  'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00535.jpg'
+  'https://glossbossuploader.s3.eu-central-1.amazonaws.com/nsuBwPhmXJec0sW1IMK56-papagti/IMG_3894.jpeg',
+  'https://glossbossuploader.s3.eu-central-1.amazonaws.com/nsuBwPhmXJec0sW1IMK56-papagti/IMG_3886.jpeg'
 ]
 const randomHeroImage =
   heroImages[Math.floor(Math.random() * heroImages.length)]

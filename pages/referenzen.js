@@ -6,9 +6,20 @@ import Card from '../components/card'
 
 export default () => (
   <Page
-    title="Referenzen"
-    subTitle="Hier findest du eine kleine Auswahl an Fahrzeugen die ich schon pflegen durfte."
+  title="Referenzen"
+  subTitle="Hier findest du eine kleine Auswahl an Fahrzeugen die wir schon pflegen durften."
   >
+  <Card title="Golf VII GTI">
+    <ReferenzItem
+      img={[
+        'https://glossbossuploader.s3.eu-central-1.amazonaws.com/nsuBwPhmXJec0sW1IMK56-papagti/IMG_3886.jpeg',
+        'https://glossbossuploader.s3.eu-central-1.amazonaws.com/nsuBwPhmXJec0sW1IMK56-papagti/IMG_3889.jpeg',
+        'https://glossbossuploader.s3.eu-central-1.amazonaws.com/nsuBwPhmXJec0sW1IMK56-papagti/IMG_3894.jpeg'
+      ]}
+      link="https://glossboss.de/videos/keramik-oder-wachs-fuer-marvins-gti/"
+      desc="Ein Idiumgrauer Golf 7 GTI wurde mit Nanolex Si3D HD Ultra keramisch Beschichtet."
+    />
+  </Card>
     <Card title="Porsche 996 Turbo">
       <ReferenzItem
         img={[
@@ -32,14 +43,6 @@ export default () => (
         desc="Das perfekte Beispiel zum Thema: 'wie lange hält sich das Gtechniq Crystal Serum'. Der Besitzer kam nach 2 Jahren zum auffrischen und mit staunenden Gesichtern haben wir den Lack begutachtet"
       />
     </Card>
-
-    {/* <Card title="SL 55 AMG">
-      <ReferenzItem
-        img="https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/sl55amg.jpg"
-        link="https://www.glossboss.de/pflegeberichte/sl-55-amg-video-gyeon-prime/"
-        desc="Nach einer 2-Stufigen Politur kam als Lackschutz das Gyeon Prime drauf - schöner Glanz für den AMG"
-      />
-    </Card> */}
 
     <Card title="Porsche 993">
       <ReferenzItem
@@ -77,16 +80,5 @@ export default () => (
       />
     </Card>
 
-    <Card title="Golf VII GTI">
-      <ReferenzItem
-        img={[
-          'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/golf7-gti-schwarz/DSC01250.jpg',
-          'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/golf7-gti-schwarz/DSC01227.jpg',
-          'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/golf7-gti-schwarz/DSC01240.jpg'
-        ]}
-        link="https://glossboss.de/pflegeberichte/golf-7-gti-schwarz-zymoel-carbon/"
-        desc="Dieser schwarze Golf VII GTI wurde mit dem Zymöl Carbon gepflegt - ein Wachs vom Luxuswachshersteller Zymöl."
-      />
-    </Card>
   </Page>
 )
