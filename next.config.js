@@ -5,7 +5,8 @@ module.exports = {
       '/leistungen': { page: '/leistungen' },
       '/anfahrt': { page: '/anfahrt' },
       '/impressum': { page: '/impressum' },
-      '/referenzen': { page: '/referenzen' }
+      '/referenzen': { page: '/referenzen' },
+      '/team': { page: '/team' }
     }
   }
 }

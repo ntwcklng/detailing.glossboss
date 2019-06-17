@@ -55,6 +55,7 @@ const NavbarListItem = styled.li`
   a {
     color: ${props => (props.active ? 'white !important' : '')};
     text-decoration: none;
+    font-weight: ${props => (props.active ? '700' : '400')};
   }
   a:hover {
     color: white;

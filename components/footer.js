@@ -23,5 +23,6 @@ export default () => (
     />
     <SocialItem text="Youtube" link="https://www.youtube.com/glossbossde" />
     <SocialItem text="Blog" link="https://glossboss.de" />
+    <SocialItem text="Kontakt" link="mailto:marvin@glossboss.de" />
   </Footer>
 )

@@ -90,24 +90,25 @@ export default () => (
     <Card title="Nanolex Si3d HD Ultra Paket">
       <p>
         Die längste Standzeit, der beste Schutz und das schönste
-        Wasserablaufverhalten - das ist nur möglich mit der Highend Versiegelung vom deutschen Hersteller Nanolex. 
+        Wasserablaufverhalten - das ist nur möglich mit der Highend Versiegelung
+        vom deutschen Hersteller Nanolex.
       </p>
 
       <LeistungList>
         <LeistungListItem>1-Stufige Defektkorrektur</LeistungListItem>
         <LeistungListItem>
-          Lackversiegelung mit Nanolex Si3d HD Ultra (1 Schicht Si3d BaseCoat + 1 Schicht Si3D HD)
+          Lackversiegelung mit Nanolex Si3d HD Ultra (1 Schicht Si3d BaseCoat +
+          1 Schicht Si3D HD)
         </LeistungListItem>
-        <LeistungListItem>
-          Standzeit: ca. 30-50 Wäschen
-        </LeistungListItem>
+        <LeistungListItem>Standzeit: ca. 30-50 Wäschen</LeistungListItem>
       </LeistungList>
       <LeistungPreis>ab 900€</LeistungPreis>
     </Card>
 
     <Card title="Nanolex/ServFaces 1 Schicht Keramikbeschichtung">
       <p>
-        Die kostengünstigere alternative mit einer Schicht
+        Die kostengünstigere alternative mit einer Schicht ServFaces Ultima oder
+        Nanolex Si3D HD.
       </p>
 
       <LeistungList>
@@ -115,9 +116,7 @@ export default () => (
         <LeistungListItem>
           Lackversiegelung mit Nanolex Si3d HD oder ServFaces Ultima
         </LeistungListItem>
-        <LeistungListItem>
-          Standzeit: ca. 20-25 Wäschen
-        </LeistungListItem>
+        <LeistungListItem>Standzeit: ca. 20-25 Wäschen</LeistungListItem>
       </LeistungList>
       <LeistungPreis>ab 600€</LeistungPreis>
     </Card>
