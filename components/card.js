@@ -7,7 +7,7 @@ const Card = styled.div`
       ${config.cardBackground},
       ${config.cardBackground}
     ),
-    linear-gradient(to right, #ff5200, #bf0bbf);
+    linear-gradient(135deg, #ff5200, #bf0bbf);
   border: 5px solid transparent;
   background-repeat: no-repeat;
   background-origin: padding-box, border-box;
