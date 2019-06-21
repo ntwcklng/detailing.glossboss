@@ -4,8 +4,8 @@ import Card from '../components/card'
 
 export default () => (
   <Page
-    title="Willkommen bei GLOSSBOSS Detailing"
-    subTitle="Dein Ansprechpartner für Keramik / Siliziumversiegelung und Lackaufbereitung im Ruhrgebiet"
+    title="GLOSSBOSS Detailing"
+    subTitle="Dein Ansprechpartner für Keramikversiegelung und Autopflege im Ruhrgebiet"
   >
     <Card title="Einblick in unsere Arbeit">
       <Video link="https://www.youtube.com/embed/rXvB57Wo1YY" />

@@ -4,8 +4,8 @@ const config = {
     { href: '/leistungen/', title: 'Leistungen / Preise' },
     { href: '/referenzen/', title: 'Referenzen' },
     { href: '/anfahrt/', title: 'Anfahrt' },
-    { href: '/team/', title: 'Team' },
-    { href: '/impressum/', title: 'Impressum' }
+    // { href: '/team/', title: 'Team' },
+    { href: '/impressum/', title: 'Impressum / AGB' }
   ],
   mainColor: '#0088ff',
   mainColorLight: '#0088ff',

@@ -10,6 +10,9 @@ const Hero = styled.div`
 }), url("${props => props.image}");
   background-size: cover;
 background-position: center;
+  @media (max-width: ${config.mobileMQ}) {
+    height: 400px;
+  }
 `
 const Title = styled.h1`
   position: relative;
@@ -27,6 +30,7 @@ const Title = styled.h1`
   }
   @media (max-width: ${config.mobileMQ}) {
     font-size: 24px;
+    top: 25%;
   }
 `
 const heroImages = [

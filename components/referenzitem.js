@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import config from '../config'
 
-const ReferenzLink = styled.a`
+const Referenz = styled.a`
   text-decoration: none;
   color: ${config.mainColor};
 `
@@ -18,7 +18,8 @@ const ReferenzDesc = styled.p`
   color: ${config.lightText};
 `
 
-const ReferenzReadMore = styled.div`
+const ReferenzReadMore = styled.a`
+  display: block;
   text-transform: uppercase;
   text-align: right;
   margin-top: 50px;
@@ -44,19 +45,25 @@ const ReferenzImageItemWrapper = styled.div`
 `
 
 export default ({ img, link, desc, readMore }) => (
-  <ReferenzLink href={link} target="_blank">
+  <Referenz>
     <div className="inner">
       <ReferenzDesc>{desc}</ReferenzDesc>
       <ReferenzImageWrapper>
         {img.map(img => (
           <ReferenzImageItemWrapper>
-            <ReferenzImage src={img} />
+            <a href={img.replace('thumbnail/', '')} target="_blank">
+              <ReferenzImage
+                src={img.replace('amazonaws.com/', 'amazonaws.com/thumbnails/')}
+              />
+            </a>
           </ReferenzImageItemWrapper>
         ))}
       </ReferenzImageWrapper>
-      <ReferenzReadMore>
-        {readMore ? { readMore } : 'Bericht ansehen'}
-      </ReferenzReadMore>
+      {link && (
+        <ReferenzReadMore href={link} target="_blank">
+          {readMore ? { readMore } : 'Bericht ansehen'}
+        </ReferenzReadMore>
+      )}
     </div>
-  </ReferenzLink>
+  </Referenz>
 )

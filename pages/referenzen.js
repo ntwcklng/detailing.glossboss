@@ -6,20 +6,30 @@ import Card from '../components/card'
 
 export default () => (
   <Page
-  title="Referenzen"
-  subTitle="Hier findest du eine kleine Auswahl an Fahrzeugen die wir schon pflegen durften."
+    title="Referenzen"
+    subTitle="Hier findest du eine kleine Auswahl an Fahrzeugen die wir schon pflegen durften."
   >
-  <Card title="Golf VII GTI">
-    <ReferenzItem
-      img={[
-        'https://glossbossuploader.s3.eu-central-1.amazonaws.com/nsuBwPhmXJec0sW1IMK56-papagti/IMG_3886.jpeg',
-        'https://glossbossuploader.s3.eu-central-1.amazonaws.com/nsuBwPhmXJec0sW1IMK56-papagti/IMG_3889.jpeg',
-        'https://glossbossuploader.s3.eu-central-1.amazonaws.com/nsuBwPhmXJec0sW1IMK56-papagti/IMG_3894.jpeg'
-      ]}
-      link="https://glossboss.de/videos/keramik-oder-wachs-fuer-marvins-gti/"
-      desc="Ein Idiumgrauer Golf 7 GTI wurde mit Nanolex Si3D HD Ultra keramisch Beschichtet."
-    />
-  </Card>
+    <Card title="Golf VII GTI">
+      <ReferenzItem
+        img={[
+          'https://glossbossuploader.s3.eu-central-1.amazonaws.com/nsuBwPhmXJec0sW1IMK56-papagti/IMG_3886.jpeg',
+          'https://glossbossuploader.s3.eu-central-1.amazonaws.com/nsuBwPhmXJec0sW1IMK56-papagti/IMG_3889.jpeg',
+          'https://glossbossuploader.s3.eu-central-1.amazonaws.com/nsuBwPhmXJec0sW1IMK56-papagti/IMG_3894.jpeg'
+        ]}
+        link="https://glossboss.de/videos/keramik-oder-wachs-fuer-marvins-gti/"
+        desc="Ein Idiumgrauer Golf 7 GTI wurde mit Nanolex Si3D HD Ultra keramisch Beschichtet."
+      />
+    </Card>
+    <Card title="Audi RS3 Nardograu">
+      <ReferenzItem
+        img={[
+          'https://glossbossuploader.s3.eu-central-1.amazonaws.com/qzk8ZgoBmxKkj82IEwJHg-rs3/IMG_27881.jpg',
+          'https://glossbossuploader.s3.eu-central-1.amazonaws.com/1cT_W9uupZCyO1pOWOEek-rs3nardo/IMG_2788.jpeg',
+          'https://glossbossuploader.s3.eu-central-1.amazonaws.com/1cT_W9uupZCyO1pOWOEek-rs3nardo/IMG_2784.jpeg'
+        ]}
+        desc="Ein Nardograuer Audi RS3 wurde mit Gyeon Duraflex keramisch Beschichtet."
+      />
+    </Card>
     <Card title="Porsche 996 Turbo">
       <ReferenzItem
         img={[
@@ -79,6 +89,5 @@ export default () => (
         desc="Dieses Irisblaue Porsche G-Modell wurde in mehreren Polierstufen wieder auf Hochglanz gebracht und anschließend mit einem Wax-Versiegelungs-Hybrid geschützt"
       />
     </Card>
-
   </Page>
 )
