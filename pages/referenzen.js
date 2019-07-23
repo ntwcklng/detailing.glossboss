@@ -9,6 +9,16 @@ export default () => (
     title="Referenzen"
     subTitle="Hier findest du eine kleine Auswahl an Fahrzeugen die wir schon pflegen durften."
   >
+    <Card title="BMW M3 (F80)">
+      <ReferenzItem
+        img={[
+          'https://glossbossuploader.s3.eu-central-1.amazonaws.com/1PlVSj-lvEIhNeQj6q2DR-f80m3/DSC00152.JPG',
+          'https://glossbossuploader.s3.eu-central-1.amazonaws.com/1PlVSj-lvEIhNeQj6q2DR-f80m3/DSC00149.JPG',
+          'https://glossbossuploader.s3.eu-central-1.amazonaws.com/W48xz9B3ga8vBm6_rfRMn-f80m3/DSC00133.jpg'
+        ]}
+        desc="Tansanitblauer BMW M3 (F80) mit einem Luxuswachs aus dem Hause Swizöl veredelt."
+      />
+    </Card>
     <Card title="Golf VII GTI">
       <ReferenzItem
         img={[
