@@ -4,7 +4,6 @@ const config = {
     { href: '/leistungen/', title: 'Leistungen / Preise' },
     { href: '/referenzen/', title: 'Referenzen' },
     { href: '/anfahrt/', title: 'Anfahrt' },
-    // { href: '/team/', title: 'Team' },
     { href: '/impressum/', title: 'Impressum / AGB' }
   ],
   mainColor: '#0088ff',
@@ -18,22 +17,4 @@ const config = {
   mobileMQ: '820px',
   backgroundColor: '#1e1527'
 }
-// const config = {
-//   title: 'GLOSSBOSS Detailing in NRW - 46284 Dorsten und Umgebung',
-//   navbarLinks: [
-//     { href: '/leistungen', title: 'Leistungen / Preise' },
-//     { href: '/referenzen', title: 'Referenzen' },
-//     { href: '/anfahrt', title: 'Anfahrt' },
-//     { href: '/impressum', title: 'Impressum' },
-//     { href: 'mailto:marvin@glossboss.de', title: 'Kontakt' }
-//   ],
-//   mainColor: '#0088ff',
-//   mainColorLight: '#0088ff',
-//   darkText: '#000',
-//   lightText: '#666',
-//   cardShadow: '0px 2px 4px rgba(0,0,0,.18)',
-//   heroGradient: 'rgba(80, 168, 219, .7)',
-//   mobileMQ: '820px'
-// }
-
 export default config

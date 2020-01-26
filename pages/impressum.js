@@ -11,6 +11,7 @@ export default () => (
         <br />
         46282 Dorsten
       </p>
+      <p>Umsatzsteuer ID: DE815845807</p>
       <p>
         Telefon: 01703262412 (Kontakt via eMail wird bevorzugt!)
         <br />
