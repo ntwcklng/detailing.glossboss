@@ -1,5 +1,5 @@
 // pages/_app.js
-import App, { Container } from 'next/app'
+import App from 'next/app'
 import Head from 'next/head'
 import React from 'react'
 import config from '../config'
@@ -18,12 +18,12 @@ export default class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props
     return (
-      <Container>
+      <>
         <Head>
           <title>{config.title}</title>
         </Head>
         <Component {...pageProps} />
-      </Container>
+      </>
     )
   }
 }

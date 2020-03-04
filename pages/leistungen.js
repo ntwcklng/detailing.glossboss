@@ -32,7 +32,9 @@ export default () => (
         Jeder weitere Durchgang kostet rund 300€, entfernt mehr Kratzer und
         lässt deinen Lack noch mehr glänzen.
       </p>
-      <LeistungPreis>ab 500€</LeistungPreis>
+      <LeistungPreis>
+        ab 500€ <span>inkl. 19% MwSt</span>
+      </LeistungPreis>
     </Card>
 
     <Card title="Versiegelung - Keramikbeschichtung">
@@ -58,7 +60,9 @@ export default () => (
         Bevor wir aber deinen Lack mit einer Keramikversiegelung schützen
         können, muss dieser mindestens 1-Stufig poliert werden.
       </p>
-      <LeistungPreis>ab 150€</LeistungPreis>
+      <LeistungPreis>
+        ab 150€ <span>inkl. 19% MwSt</span>
+      </LeistungPreis>
     </Card>
 
     <Card title="Luxuswachs - Zymöl, Swizöl">
@@ -84,7 +88,9 @@ export default () => (
         <LeistungListItem>Swizöl Shield</LeistungListItem>
         <LeistungListItem>Weitere auf Anfrage</LeistungListItem>
       </LeistungList>
-      <LeistungPreis>ab 100€</LeistungPreis>
+      <LeistungPreis>
+        ab 100€ <span>inkl. 19% MwSt</span>
+      </LeistungPreis>
     </Card>
 
     <Card title="Nanolex Si3d HD Ultra Paket">
@@ -102,7 +108,9 @@ export default () => (
         </LeistungListItem>
         <LeistungListItem>Standzeit: ca. 30-50 Wäschen</LeistungListItem>
       </LeistungList>
-      <LeistungPreis>ab 900€</LeistungPreis>
+      <LeistungPreis>
+        ab 900€ <span>inkl. 19% MwSt</span>
+      </LeistungPreis>
     </Card>
 
     <Card title="Nanolex/ServFaces 1 Schicht Keramikbeschichtung">
@@ -118,7 +126,9 @@ export default () => (
         </LeistungListItem>
         <LeistungListItem>Standzeit: ca. 20-25 Wäschen</LeistungListItem>
       </LeistungList>
-      <LeistungPreis>ab 600€</LeistungPreis>
+      <LeistungPreis>
+        ab 800€ <span>inkl. 19% MwSt</span>
+      </LeistungPreis>
     </Card>
 
     <Card title="Lederreinigung / Lederreperatur">
@@ -134,18 +144,22 @@ export default () => (
           Leder nachfärben am Porsche 997 Turbo
         </a>
       </p>
-      <LeistungPreis>ab 200€</LeistungPreis>
+      <LeistungPreis>
+        ab 200€ <span>inkl. 19% MwSt</span>
+      </LeistungPreis>
     </Card>
 
     <Card title="Felgenversiegelung">
       <p>
         Versiegelte Felgen lassen sich einfacher reinigen und glänzen besser.
         Der heiße Bremsstaub kann sich außerdem nicht so schnell in den Lack der
-        Felge einbrennen. Du hast die Wahl zwischen Gtechniq C5 und Gyeon Rim.
-        Beide Versiegelungen wurden von uns mehrfach getestet und garantieren
-        maximale Standzeit.
+        Felge einbrennen. Du hast die Wahl zwischen Gtechniq C5 und ServFaces
+        Coat Rims. Beide Versiegelungen wurden von uns mehrfach getestet und
+        garantieren maximale Standzeit.
       </p>
-      <LeistungPreis>ab 100€</LeistungPreis>
+      <LeistungPreis>
+        ab 150€ <span>inkl. 19% MwSt</span>
+      </LeistungPreis>
     </Card>
 
     <Card title="Dichtung- und Gummipflege für Oldtimer">
@@ -159,7 +173,9 @@ export default () => (
         deine Dichtungen und Gummis, damit diese so lang wie möglich geschmeidig
         bleiben.
       </p>
-      <LeistungPreis>ab 30€</LeistungPreis>
+      <LeistungPreis>
+        ab 30€ <span>inkl. 19% MwSt</span>
+      </LeistungPreis>
     </Card>
 
     <Card title="Master Paket" highlight={true}>
@@ -173,9 +189,11 @@ export default () => (
         dein Fahrzeug.
       </p>
       <p>
-        Für 2019 nur noch <strong>0 von 4</strong> verfügbar
+        Für 2020 nur noch <strong>3 von 4</strong> verfügbar
       </p>
-      <LeistungPreis>ab 2500€</LeistungPreis>
+      <LeistungPreis>
+        ab 2500€ <span>inkl. 19% MwSt</span>
+      </LeistungPreis>
     </Card>
   </Page>
 )

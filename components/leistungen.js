@@ -27,4 +27,8 @@ export const LeistungPreis = styled.h2`
   ${'' /* color: ${config.lightText}; */} padding: 0;
   text-align: right;
   font-weight: 300;
+  span {
+    font-size: 14px;
+    font-weight: 200;
+  }
 `

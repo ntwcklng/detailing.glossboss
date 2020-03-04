@@ -51,7 +51,7 @@ export default class Item extends react.Component {
       image: ''
     }
   }
-  componentDidReceiveProps() {
+  componentWillReceiveProps() {
     this.setState({
       image: randomHeroImage
     })
