@@ -7,7 +7,7 @@ import Card from '../components/card'
 import {
   LeistungList,
   LeistungListItem,
-  LeistungPreis
+  LeistungPreis,
 } from '../components/leistungen.js'
 
 export default () => (
@@ -23,7 +23,7 @@ export default () => (
         Trockenschleifsysteme entfernt ohne zuviel Lack abtragen zu müssen.
       </p>
       <p>
-        Der erste Durchgang kostet rund 500€ und beinhaltet die Fahrzeugwäsche
+        Der erste Durchgang kostet rund 650€ und beinhaltet die Fahrzeugwäsche
         (inkl. Felgen und Einstiege), Lackreinigung mittels Knete und die erste
         Stufe der Defektkorrektur, wo mit einem Durchgang der beste Kompromiss
         aus Kratzerentfernung und Glanzsteigerung gewählt wird.
@@ -33,7 +33,7 @@ export default () => (
         lässt deinen Lack noch mehr glänzen.
       </p>
       <LeistungPreis>
-        ab 500€ <span>inkl. 19% MwSt</span>
+        ab 650€ <span>inkl. MwSt</span>
       </LeistungPreis>
     </Card>
 
@@ -50,10 +50,12 @@ export default () => (
         kannst wählen zwischen:
       </p>
       <LeistungList>
+        <LeistungListItem>
+          Max Protect UNC-R Elite (Gummibeschichtung)
+        </LeistungListItem>
         <LeistungListItem>Nanolex Si3d HD</LeistungListItem>
         <LeistungListItem>Servfaces Ultima</LeistungListItem>
         <LeistungListItem>Gtechniq Crystal Serum (+ Exo)</LeistungListItem>
-        <LeistungListItem>Gyeon Duraflex/Pure</LeistungListItem>
         <LeistungListItem>Weitere auf Anfrage</LeistungListItem>
       </LeistungList>
       <p>
@@ -61,7 +63,7 @@ export default () => (
         können, muss dieser mindestens 1-Stufig poliert werden.
       </p>
       <LeistungPreis>
-        ab 150€ <span>inkl. 19% MwSt</span>
+        ab 150€ <span>inkl. MwSt</span>
       </LeistungPreis>
     </Card>
 
@@ -89,27 +91,28 @@ export default () => (
         <LeistungListItem>Weitere auf Anfrage</LeistungListItem>
       </LeistungList>
       <LeistungPreis>
-        ab 100€ <span>inkl. 19% MwSt</span>
+        ab 100€ <span>inkl. MwSt</span>
       </LeistungPreis>
     </Card>
 
-    <Card title="Nanolex Si3d HD Ultra Paket">
+    <Card title="Max Protect UNC-R Elite Gummibeschichtung">
       <p>
-        Die längste Standzeit, der beste Schutz und das schönste
-        Wasserablaufverhalten - das ist nur möglich mit der Highend Versiegelung
-        vom deutschen Hersteller Nanolex.
+        Gummibeschichtungen eliminieren viele Probleme die man sonst nur von
+        Keramikbeschichtung kennt wie z.B. Wasserflecken, nachdem man nicht
+        gründlich/schnell genug abgetrocknet hat. Der einzigartige schon fast
+        Wachsähnliche Glanz der Gummibeschichtungen lassen die Herzen der
+        Enthusiasten höher schlagen.
       </p>
 
       <LeistungList>
-        <LeistungListItem>1-Stufige Defektkorrektur</LeistungListItem>
+        <LeistungListItem>min. 1-Stufige Defektkorrektur</LeistungListItem>
         <LeistungListItem>
-          Lackversiegelung mit Nanolex Si3d HD Ultra (1 Schicht Si3d BaseCoat +
-          1 Schicht Si3D HD)
+          Lackversiegelung mit Max Protect UNC-R Elite
         </LeistungListItem>
-        <LeistungListItem>Standzeit: ca. 30-50 Wäschen</LeistungListItem>
+        <LeistungListItem>Standzeit: ca. 40-55 Wäschen</LeistungListItem>
       </LeistungList>
       <LeistungPreis>
-        ab 900€ <span>inkl. 19% MwSt</span>
+        ab 1300€ <span>inkl. MwSt</span>
       </LeistungPreis>
     </Card>
 
@@ -127,7 +130,7 @@ export default () => (
         <LeistungListItem>Standzeit: ca. 20-25 Wäschen</LeistungListItem>
       </LeistungList>
       <LeistungPreis>
-        ab 800€ <span>inkl. 19% MwSt</span>
+        ab 800€ <span>inkl. MwSt</span>
       </LeistungPreis>
     </Card>
 
@@ -145,7 +148,7 @@ export default () => (
         </a>
       </p>
       <LeistungPreis>
-        ab 200€ <span>inkl. 19% MwSt</span>
+        ab 200€ <span>inkl. MwSt</span>
       </LeistungPreis>
     </Card>
 
@@ -158,7 +161,7 @@ export default () => (
         garantieren maximale Standzeit.
       </p>
       <LeistungPreis>
-        ab 150€ <span>inkl. 19% MwSt</span>
+        ab 150€ <span>inkl. MwSt</span>
       </LeistungPreis>
     </Card>
 
@@ -174,7 +177,7 @@ export default () => (
         bleiben.
       </p>
       <LeistungPreis>
-        ab 30€ <span>inkl. 19% MwSt</span>
+        ab 30€ <span>inkl. MwSt</span>
       </LeistungPreis>
     </Card>
 
@@ -189,10 +192,10 @@ export default () => (
         dein Fahrzeug.
       </p>
       <p>
-        Für 2020 nur noch <strong>3 von 4</strong> verfügbar
+        Für 2020 nur noch <strong>2 von 4</strong> verfügbar
       </p>
       <LeistungPreis>
-        ab 2500€ <span>inkl. 19% MwSt</span>
+        ab 2500€ <span>inkl. MwSt</span>
       </LeistungPreis>
     </Card>
   </Page>
