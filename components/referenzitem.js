@@ -44,12 +44,12 @@ const ReferenzImageItemWrapper = styled.div`
   }
 `
 
-export default ({ img, link, desc, readMore }) => (
+const Referenzen = ({ img, link, desc, readMore }) => (
   <Referenz>
     <div className="inner">
       <ReferenzDesc>{desc}</ReferenzDesc>
       <ReferenzImageWrapper>
-        {img.map(img => (
+        {img.map((img) => (
           <ReferenzImageItemWrapper>
             <a href={img.replace('thumbnail/', '')} target="_blank">
               <ReferenzImage
@@ -67,3 +67,4 @@ export default ({ img, link, desc, readMore }) => (
     </div>
   </Referenz>
 )
+export default Referenzen

@@ -1,5 +1,5 @@
 import config from '../config'
-export default ({ children }) => (
+const SubHeading = ({ children }) => (
   <h2>
     {children}
     <style jsx>{`
@@ -10,3 +10,4 @@ export default ({ children }) => (
     `}</style>
   </h2>
 )
+export default SubHeading

@@ -1,4 +1,4 @@
-export default () => (
+const Logo = () => (
   <div>
     <img src="/static/GB_Logo.svg" alt="GLOSSBOSS Logo" />
     <style jsx>{`
@@ -11,3 +11,4 @@ export default () => (
     `}</style>
   </div>
 )
+export default Logo

@@ -13,7 +13,7 @@ const Footer = styled.div`
   }
 `
 
-export default () => (
+const FooterComp = () => (
   <Footer>
     <Zertifiziert />
     <SocialItem text="Facebook" link="https://www.facebook.com/glossboss.de" />
@@ -26,3 +26,4 @@ export default () => (
     <SocialItem text="Kontakt" link="mailto:marvin@glossboss.de" />
   </Footer>
 )
+export default FooterComp

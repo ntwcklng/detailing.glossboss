@@ -1,4 +1,4 @@
-export default ({ toggle }) => (
+const ArrowDown = ({ toggle }) => (
   <div>
     <svg
       enableBackground="new 0 0 50 50"
@@ -23,3 +23,4 @@ export default ({ toggle }) => (
     `}</style>
   </div>
 )
+export default ArrowDown

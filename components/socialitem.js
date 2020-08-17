@@ -15,8 +15,9 @@ const Item = styled.a`
   }
 `
 
-export default ({ text, link }) => (
+const SocialItem = ({ text, link }) => (
   <Item href={link} rel="noopener">
     {text}
   </Item>
 )
+export default SocialItem

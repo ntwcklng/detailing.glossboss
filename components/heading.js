@@ -1,6 +1,6 @@
 import config from '../config'
 
-export default ({ children }) => (
+const Heading = ({ children }) => (
   <h1>
     {children}
     <style jsx>{`
@@ -12,3 +12,4 @@ export default ({ children }) => (
     `}</style>
   </h1>
 )
+export default Heading

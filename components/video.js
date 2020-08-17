@@ -7,4 +7,5 @@ const Item = styled.iframe`
   border: none;
 `
 
-export default ({ link }) => <Item src={link} frameborder="0" allowfullscreen />
+const Video = ({ link }) => <Item src={link} frameborder="0" allowfullscreen />
+export default Video
