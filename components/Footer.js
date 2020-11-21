@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
-import SocialItem from './socialitem.js'
-import Zertifiziert from './zertifiziert'
+import SocialItem from './Socialitem.js'
+import Zertifiziert from './Zertifiziert'
 import config from '../config'
 
 const Footer = styled.div`

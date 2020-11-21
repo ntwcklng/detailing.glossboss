@@ -2,9 +2,9 @@ import React from 'react'
 import Link from 'next/link'
 import styled, { ServerStyleSheet, createGlobalStyle } from 'styled-components'
 
-import Logo from '../components/logo'
+import Logo from './Logo'
 import config from '../config'
-import ArrowDown from './arrowdown'
+import ArrowDown from './Arrowdown'
 
 const GlobalStyle = createGlobalStyle`
 body {

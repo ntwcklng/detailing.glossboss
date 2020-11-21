@@ -1,14 +1,14 @@
 import styled from 'styled-components'
 
-import Page from '../layouts/page'
-import Heading from '../components/heading'
-import Card from '../components/card'
+import Page from '../layouts/Page'
+import Heading from '../components/Heading'
+import Card from '../components/Card'
 
 import {
   LeistungList,
   LeistungListItem,
   LeistungPreis,
-} from '../components/leistungen.js'
+} from '../components/Leistungen.js'
 
 const LeistungenComponent = () => (
   <Page title="Leistungen / Preise">

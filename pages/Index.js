@@ -1,6 +1,6 @@
 import Page from '../layouts/Page'
-import Video from '../components/video'
-import Card from '../components/card'
+import Video from '../components/Video'
+import Card from '../components/Card'
 
 const IndexPage = () => (
   <Page

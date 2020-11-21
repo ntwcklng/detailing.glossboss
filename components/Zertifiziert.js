@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import Card from './card'
+import Card from './Card'
 
 const Image = styled.img`
   margin: 30px;

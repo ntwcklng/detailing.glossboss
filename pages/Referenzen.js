@@ -1,8 +1,8 @@
-import Page from '../layouts/page'
-import Heading from '../components/heading'
-import SubHeading from '../components/subHeading'
-import ReferenzItem from '../components/referenzitem.js'
-import Card from '../components/card'
+import Page from '../layouts/Page'
+import Heading from '../components/Heading'
+import SubHeading from '../components/SubHeading'
+import ReferenzItem from '../components/Referenzitem.js'
+import Card from '../components/Card'
 
 const ReferenzenComponent = () => (
   <Page

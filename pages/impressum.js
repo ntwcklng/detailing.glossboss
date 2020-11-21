@@ -1,5 +1,5 @@
-import Page from '../layouts/page'
-import Card from '../components/card'
+import Page from '../layouts/Page'
+import Card from '../components/Card'
 
 const ImpressumComponent = () => (
   <Page title="Impressum, AGB" subTitle="und Datenschutzhinweise">

@@ -3,9 +3,9 @@ import Link from 'next/link'
 import Router from 'next/router'
 import styled, { keyframes } from 'styled-components'
 
-import Footer from '../components/footer'
-import Navbar from '../components/navbar'
-import Hero from '../components/hero'
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
+import Hero from '../components/Hero'
 import config from '../config'
 
 const fadeIn = keyframes`
