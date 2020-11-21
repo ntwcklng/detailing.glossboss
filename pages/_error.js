@@ -1,5 +1,5 @@
-import Page from '../layouts/page'
-import Heading from '../components/heading'
+import Page from '../layouts/Page'
+import Heading from '../components/Heading'
 
 import React from 'react'
 export default class Error extends React.Component {
