@@ -25,9 +25,10 @@ const CardTitle = styled.h2`
   font-weight: 500;
   text-transform: uppercase;
 `
-export default ({ children, title, highlight }) => (
+const CardComponent = ({ children, title, highlight }) => (
   <Card highlight={highlight}>
     <CardTitle highlight={highlight}>{title}</CardTitle>
     {children}
   </Card>
 )
+export default CardComponent

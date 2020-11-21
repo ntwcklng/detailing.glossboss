@@ -1,7 +1,7 @@
 import Page from '../layouts/page'
 import Card from '../components/card'
 
-export default () => (
+const ImpressumComponent = () => (
   <Page title="Impressum, AGB" subTitle="und Datenschutzhinweise">
     <Card>
       <p>
@@ -300,3 +300,4 @@ export default () => (
     </Card>
   </Page>
 )
+export default ImpressumComponent

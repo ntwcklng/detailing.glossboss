@@ -10,7 +10,7 @@ import {
   LeistungPreis,
 } from '../components/leistungen.js'
 
-export default () => (
+const LeistungenComponent = () => (
   <Page title="Leistungen / Preise">
     <Card title="Polieren - Defektkorrektur">
       <p>
@@ -192,7 +192,7 @@ export default () => (
         dein Fahrzeug.
       </p>
       <p>
-        Für 2020 nur noch <strong>2 von 4</strong> verfügbar
+        Für 2021 nur noch <strong>3 von 4</strong> verfügbar
       </p>
       <LeistungPreis>
         ab 2500€ <span>inkl. MwSt</span>
@@ -200,3 +200,4 @@ export default () => (
     </Card>
   </Page>
 )
+export default LeistungenComponent

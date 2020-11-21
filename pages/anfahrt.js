@@ -1,7 +1,7 @@
 import Page from '../layouts/page'
 import Card from '../components/card'
 
-export default () => (
+const AnfahrtComponent = () => (
   <Page title="Anfahrt">
     <Card>
       <div>
@@ -28,3 +28,4 @@ export default () => (
     </Card>
   </Page>
 )
+export default AnfahrtComponent

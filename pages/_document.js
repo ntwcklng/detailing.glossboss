@@ -1,4 +1,4 @@
-import Document, { Head, Main, NextScript } from 'next/document'
+import Document, { Head, Main, NextScript, Html } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
 import config from '../config'
 
@@ -13,10 +13,8 @@ export default class MyDocument extends Document {
   }
   render() {
     return (
-      <html lang="de">
+      <Html lang="de">
         <Head>
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta name="theme-color" content={config.mainColor} />
           <link rel="icon" href="/static/favicon.ico" type="image/x-icon" />
           <meta
             name="description"
@@ -28,7 +26,7 @@ export default class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
-      </html>
+      </Html>
     )
   }
 }

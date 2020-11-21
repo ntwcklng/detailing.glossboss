@@ -4,7 +4,7 @@ import SubHeading from '../components/subHeading'
 import ReferenzItem from '../components/referenzitem.js'
 import Card from '../components/card'
 
-export default () => (
+const ReferenzenComponent = () => (
   <Page
     title="Referenzen"
     subTitle="Hier findest du eine kleine Auswahl an Fahrzeugen die wir schon pflegen durften."
@@ -117,3 +117,4 @@ export default () => (
     </Card>
   </Page>
 )
+export default ReferenzenComponent

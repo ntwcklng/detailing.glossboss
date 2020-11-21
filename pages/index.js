@@ -2,7 +2,7 @@ import Page from '../layouts/page'
 import Video from '../components/video'
 import Card from '../components/card'
 
-export default () => (
+const IndexPage = () => (
   <Page
     title="GLOSSBOSS Detailing"
     subTitle="Dein Ansprechpartner für Keramikversiegelung und Autopflege im Ruhrgebiet"
@@ -12,3 +12,4 @@ export default () => (
     </Card>
   </Page>
 )
+export default IndexPage
