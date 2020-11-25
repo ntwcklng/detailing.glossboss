@@ -5,9 +5,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "deploy:old": "next build && next export && now deploy out",
-    "deploy": "now --prod",
-    "alias": "now alias && now rm detailing.glossboss --safe"
+    "deploy": "vercel --prod"
   },
   "author": "Marvin Mieth <ntwcklng@gmail.com>",
   "license": "MIT",
