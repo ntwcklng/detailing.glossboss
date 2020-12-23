@@ -3,12 +3,21 @@ import Heading from '../components/Heading'
 import SubHeading from '../components/SubHeading'
 import ReferenzItem from '../components/Referenzitem.js'
 import Card from '../components/Card'
-
 const ReferenzenComponent = () => (
   <Page
     title="Referenzen"
     subTitle="Hier findest du eine kleine Auswahl an Fahrzeugen die wir schon pflegen durften."
   >
+      <Card title="BMW 5er Touring (G31)">
+      <ReferenzItem
+        img={[
+          'https://glossbossuploader.s3.eu-central-1.amazonaws.com/so5R3lKkkrb4kZn65P3hh-g31/DSC00799.jpg',
+          'https://glossbossuploader.s3.eu-central-1.amazonaws.com/so5R3lKkkrb4kZn65P3hh-g31/DSC00802.jpg',
+          'https://glossbossuploader.s3.eu-central-1.amazonaws.com/so5R3lKkkrb4kZn65P3hh-g31/DSC00824.jpg',
+        ]}
+        desc="Dieser Sophistograue G31 wurde auf Hochglanz poliert und anschließend mit der Gummibeschichtung UNC-R von Max Protect beschichtet."
+      />
+    </Card>
     <Card title="Corvette C7 Z06">
       <ReferenzItem
         img={[
