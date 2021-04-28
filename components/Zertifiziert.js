@@ -24,7 +24,6 @@ const Zertifizierungen = () => (
         alt="Nanolex Zertifizierung"
       />
       <Image src="/static/gyeon-logo.png" alt="Gyeon Zertifizierung" />
-      <Image src="/static/gtechniq-logo.jpg" alt="Gtechniq Zertifizierung" />
       <Image src="/static/maxprotect.jpg" alt="Max Protect Zertifizierung" />
     </Wrapper>
   </Card>

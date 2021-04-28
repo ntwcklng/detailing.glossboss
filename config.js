@@ -3,6 +3,7 @@ const config = {
   navbarLinks: [
     { href: '/leistungen/', title: 'Leistungen / Preise' },
     { href: '/referenzen/', title: 'Referenzen' },
+    { href: '/workshops/', title: 'Workshops / Schulungen' },
     { href: '/anfahrt/', title: 'Anfahrt' },
     { href: '/impressum/', title: 'Impressum / AGB' }
   ],
@@ -14,7 +15,7 @@ const config = {
   cardBackground: '#130027',
   heroGradientTop: 'rgba(97, 79, 132, 0.7)',
   heroGradientBottom: 'rgb(29, 21, 39)',
-  mobileMQ: '820px',
+  mobileMQ: '1100px',
   backgroundColor: '#1e1527'
 }
 export default config
