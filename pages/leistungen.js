@@ -39,7 +39,7 @@ const LeistungenComponent = () => (
 
     <Card title="Versiegelung - Keramikbeschichtung">
       <p>
-        Eine keramische Versiegelung wie das Gtechniq Crystal Serum schützt den
+        Eine keramische Versiegelung wie das Nanolex Si3D schützt den
         Lack zuverlässig vor allen Umwelteinflüssen. Als erster in Deutschland
         zertifizierter Aufbereiter von Gtechniq, appliziere ich diese
         Versiegelung fachlich korrekt, damit diese auch mehrere Jahre hält.
@@ -54,7 +54,7 @@ const LeistungenComponent = () => (
           Max Protect UNC-R Elite (Gummibeschichtung)
         </LeistungListItem>
         <LeistungListItem>Nanolex Si3d HD</LeistungListItem>
-        <LeistungListItem>Servfaces Ultima</LeistungListItem>
+        <LeistungListItem>Sonax CC Evo / CC One</LeistungListItem>
         <LeistungListItem>Gtechniq Crystal Serum (+ Exo)</LeistungListItem>
         <LeistungListItem>Weitere auf Anfrage</LeistungListItem>
       </LeistungList>
@@ -116,16 +116,16 @@ const LeistungenComponent = () => (
       </LeistungPreis>
     </Card>
 
-    <Card title="Nanolex/ServFaces 1 Schicht Keramikbeschichtung">
+    <Card title="Nanolex/Sonax 1 Schicht Keramikbeschichtung">
       <p>
-        Die kostengünstigere alternative mit einer Schicht ServFaces Ultima oder
+        Die kostengünstigere alternative mit einer Schicht Sonax CC One oder
         Nanolex Si3D HD.
       </p>
 
       <LeistungList>
         <LeistungListItem>1-Stufige Defektkorrektur</LeistungListItem>
         <LeistungListItem>
-          Lackversiegelung mit Nanolex Si3d HD oder ServFaces Ultima
+          Lackversiegelung mit Nanolex Si3d HD oder Sonax CC One
         </LeistungListItem>
         <LeistungListItem>Standzeit: ca. 20-25 Wäschen</LeistungListItem>
       </LeistungList>
@@ -192,7 +192,7 @@ const LeistungenComponent = () => (
         dein Fahrzeug.
       </p>
       <p>
-        Für 2021 nur noch <strong>3 von 4</strong> verfügbar
+        Für 2021 nur noch <strong>1 von 4</strong> verfügbar
       </p>
       <LeistungPreis>
         ab 2500€ <span>inkl. MwSt</span>

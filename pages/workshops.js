@@ -50,6 +50,8 @@ const WorkshopsComponent = () => (
       </LeistungPreis>
       <Button link="mailto:marvin@glossboss.de?subject=GLOSSBOSS%20Workshop" title="Termin anfragen"></Button>
       <SilentP>oder anrufen: <a href="tel:+491703262412">+491703262412</a></SilentP>
+      <SilentP>Du möchtest ein Nanolex Approved Detailer werden?</SilentP>
+      <Button link="/nanolex" title="zur Nanolex Zertifizierung"></Button>
     </Card>
   </Page>
 )
