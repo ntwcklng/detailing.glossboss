@@ -8,7 +8,7 @@ const IndexPage = () => (
     subTitle="Dein Ansprechpartner für Keramikversiegelung und Autopflege im Ruhrgebiet"
   >
     <Card title="Einblick in unsere Arbeit">
-      <Video link="https://www.youtube.com/embed/taMAIHVvpc8" />
+      <Video link="https://www.youtube.com/embed/blEA8MAKZpU" />
     </Card>
   </Page>
 )
