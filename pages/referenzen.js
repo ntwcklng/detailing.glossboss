@@ -8,6 +8,17 @@ const ReferenzenComponent = () => (
     title="Referenzen"
     subTitle="Hier findest du eine kleine Auswahl an Fahrzeugen die wir schon pflegen durften."
   >
+
+        <Card title="Porsche 993 in Sonderlackierung">
+      <ReferenzItem
+        img={[
+          'https://glossbossuploader.s3.eu-central-1.amazonaws.com/ijaxFCSSsdmk7-WsQyC1--993/DSC01130.jpg',
+          'https://glossbossuploader.s3.eu-central-1.amazonaws.com/ijaxFCSSsdmk7-WsQyC1--993/DSC01134.jpg',
+          'https://glossbossuploader.s3.eu-central-1.amazonaws.com/ijaxFCSSsdmk7-WsQyC1--993/DSC01146.jpg',
+        ]}
+        desc="Dieser Porsche 993 wurde mehrstufig poliert und anschließend mit einem Hochwertigen Wachs geschützt."
+      />
+    </Card>
       <Card title="BMW 5er Touring (G31)">
       <ReferenzItem
         img={[
