@@ -43,7 +43,7 @@ const WorkshopsComponent = () => (
       <LeistungList>
         <LeistungListItem>Das Schulungsobjekt kann entweder eine alte Motorhaube sein, oder ein Kundenfahrzeug, welches mit einer Keramikversiegelung veredelt werden soll. Ein ganzes Auto werden wir aber nicht beschichten können während der Schulung.</LeistungListItem>
         <LeistungListItem>Schulungsdauer ca. 3-6h, je nach Vorlieben und Erfahrungen mit anderen Systemen</LeistungListItem>
-        <LeistungListItem>Die Schulungsgebühr beläuft sich auf 1000€ exkl. MwSt pro Teilnehmer, dafür bekommst du einen <strong>500€ exkl. MwSt Gutschein</strong> im Glossboss-Shop.de</LeistungListItem>
+        <LeistungListItem>Die Schulungsgebühr beläuft sich auf 1000€ exkl. MwSt pro Teilnehmer, dafür bekommst du einen <strong>500€ inkl. MwSt Gutschein</strong> im Glossboss-Shop.de</LeistungListItem>
         <LeistungListItem>zusätzlich <strong>20% Rabatt</strong> auf alle Nanolex Produkte im Glossboss-shop.de, sodass die Schulung nach Abzug des Rabattes nur 300€ kostet - du sparst also langfristig!</LeistungListItem>
         <LeistungListItem>Ab 50km Anfahrtsweg (von Dorsten), werden zusätzlich 0,30cent pro Kilometer Fahrtkosten berechnet</LeistungListItem>
       </LeistungList>
