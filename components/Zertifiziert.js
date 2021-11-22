@@ -8,6 +8,10 @@ const ImageNanolex = styled.img`
   margin: 30px;
   width: 160px;
 `
+const ImageLabo = styled.img`
+  margin: 30px;
+  max-width: 300px;
+`
 const Wrapper = styled.div`
   margin: 0 auto;
   display: flex;
@@ -23,6 +27,7 @@ const Zertifizierungen = () => (
         src="/static/NanolexApprovedDetailer_2018.svg"
         alt="Nanolex Zertifizierung"
       />
+      <ImageLabo src="/static/LogoLabocosmetica.jpg" alt="Labocosmetica Detailing Center"/>
       <Image src="/static/maxprotect.jpg" alt="Max Protect Zertifizierung" />
     </Wrapper>
   </Card>
