@@ -16,10 +16,7 @@ export default class MyDocument extends Document {
       <Html lang="de">
         <Head>
           <link rel="icon" href="/static/favicon.ico" type="image/x-icon" />
-          <meta
-            name="description"
-            content="Wir beseitigen Lackdefekte - Tragen Keramikversiegelung auf - Reparieren Leder - Autopflege Mieth in 46284 Dorsten"
-          />
+          <meta name="google-site-verification" content="VUJ1Um81u_bwUp9wfsWrz-r-bYUP6E_Ueg0Z_63w68k" />
         </Head>
         <body>
           {this.props.styleTags}

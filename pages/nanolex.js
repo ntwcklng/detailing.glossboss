@@ -2,6 +2,7 @@ import Page from '../layouts/Page'
 import Card from '../components/Card'
 import Button from '../components/Button'
 import styled from 'styled-components'
+import { NextSeo } from 'next-seo';
 
 import {
   LeistungList,
@@ -27,6 +28,11 @@ margin: 0 25px 25px 0;
 
 const WorkshopsComponent = () => (
   <Page title="Nanolex Zertifizierung" subTitle="werde ein approved Detailer">
+            <NextSeo
+      title="Nanolex Zertifizierung von GLOSSBOSS"
+      description="Werde ein approved Nanolex Detailer"
+      canonical="https://detailing.glossboss.de/nanolex"
+    />
     <Card>
     <h1>Nanolex Zertifizierung durch GLOSSBOSS</h1>
     <WorkshopImage src="https://glossbossuploader.s3.eu-central-1.amazonaws.com/3LUrV7K49fnVIS5U29lf0-/DSC07354.jpg" alt="Dozent Marvin Mieth"></WorkshopImage>

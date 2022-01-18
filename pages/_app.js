@@ -12,7 +12,11 @@ export default class MyApp extends App {
         <Head>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="theme-color" content={config.mainColor} />
-          <title>{config.title}</title>
+                    <meta
+            name="description"
+            content={Component.metaDesc}
+          />
+          <title>{Component.metaTitle}</title>
         </Head>
         <Component {...pageProps} />
       </>

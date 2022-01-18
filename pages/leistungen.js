@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Page from '../layouts/Page'
 import Heading from '../components/Heading'
 import Card from '../components/Card'
+import { NextSeo } from 'next-seo';
 
 import {
   LeistungList,
@@ -12,6 +13,12 @@ import {
 
 const LeistungenComponent = () => (
   <Page title="Leistungen / Preise">
+            <NextSeo
+      title="Leistungen - GLOSSBOSS Detailing"
+      description="Über 12 Jahre Erfahrung im Bereich der hochwertigen Fahrzeugpflege - Unsere Leistungen"
+      canonical="https://detailing.glossboss.de/leistungen"
+    />
+    <p>Egal ob anspruchsvolle Defektkorrektur am Lack wie zum Beispiel tiefe Kratzer oder Vogelkotrückstände entfernen, oder einfache Lederreinigung und Pflege, wir bieten die passende Leistung. </p>
     <Card title="Polieren - Defektkorrektur">
       <p>
         Wir entfernen feine Kratzer (Waschanlagenkratzer, Swirls) und
@@ -55,7 +62,8 @@ const LeistungenComponent = () => (
         </LeistungListItem>
         <LeistungListItem>Nanolex Si3d HD</LeistungListItem>
         <LeistungListItem>Sonax CC Evo / CC One</LeistungListItem>
-        <LeistungListItem>Gtechniq Crystal Serum (+ Exo)</LeistungListItem>
+        <LeistungListItem>Labocosmetica #BLINDO+ / #SAM / #HPC</LeistungListItem>
+        <LeistungListItem>Max Protect UNC-R / UNC-R Light</LeistungListItem>
         <LeistungListItem>Weitere auf Anfrage</LeistungListItem>
       </LeistungList>
       <p>
@@ -95,45 +103,6 @@ const LeistungenComponent = () => (
       </LeistungPreis>
     </Card>
 
-    <Card title="Max Protect UNC-R Elite Gummibeschichtung">
-      <p>
-        Gummibeschichtungen eliminieren viele Probleme die man sonst nur von
-        Keramikbeschichtung kennt wie z.B. Wasserflecken, nachdem man nicht
-        gründlich/schnell genug abgetrocknet hat. Der einzigartige schon fast
-        Wachsähnliche Glanz der Gummibeschichtungen lassen die Herzen der
-        Enthusiasten höher schlagen.
-      </p>
-
-      <LeistungList>
-        <LeistungListItem>min. 1-Stufige Defektkorrektur</LeistungListItem>
-        <LeistungListItem>
-          Lackversiegelung mit Max Protect UNC-R Elite
-        </LeistungListItem>
-        <LeistungListItem>Standzeit: ca. 40-55 Wäschen</LeistungListItem>
-      </LeistungList>
-      <LeistungPreis>
-        ab 1300€ <span>inkl. MwSt</span>
-      </LeistungPreis>
-    </Card>
-
-    <Card title="Nanolex/Sonax 1 Schicht Keramikbeschichtung">
-      <p>
-        Die kostengünstigere alternative mit einer Schicht Sonax CC One oder
-        Nanolex Si3D HD.
-      </p>
-
-      <LeistungList>
-        <LeistungListItem>1-Stufige Defektkorrektur</LeistungListItem>
-        <LeistungListItem>
-          Lackversiegelung mit Nanolex Si3d HD oder Sonax CC One
-        </LeistungListItem>
-        <LeistungListItem>Standzeit: ca. 20-25 Wäschen</LeistungListItem>
-      </LeistungList>
-      <LeistungPreis>
-        ab 800€ <span>inkl. MwSt</span>
-      </LeistungPreis>
-    </Card>
-
     <Card title="Lederreinigung / Lederreperatur">
       <p>
         Egal ob speckiges Leder oder eingerissene Sitzwange, wir können es
@@ -165,37 +134,19 @@ const LeistungenComponent = () => (
       </LeistungPreis>
     </Card>
 
-    <Card title="Dichtung- und Gummipflege für Oldtimer">
+    <Card title="Flecken aus Stoff- und Alcantara entfernen">
       <p>
-        Mit der Zeit schwinden die Weichmacher aus den Dichtungen von deinen
-        Oldtimer. Die Folgen sind Wasser bzw. Feuchtigkeitseintritt in den
-        Innenraum und harte bzw. spröde Dichtungen.
+        Flecken aus Stoff- oder Alcantaraoberflächen entfernen wir entweder komplett Chemiefrei mit Trockendampf, oder schonend mit einer milden Reinigungslösung. 
       </p>
       <p>
-        Damit das langfristig nicht mehr passiert, reinigen und pflegen wir
-        deine Dichtungen und Gummis, damit diese so lang wie möglich geschmeidig
-        bleiben.
+        Damit die gereinigte Oberfläche auch langfristig vor neuen Verschmutzungen geschützt ist, wird diese nach der Reinigung imprägniert.
       </p>
+      <LeistungList>
+        <LeistungListItem>Stoff- oder Teilledersitze</LeistungListItem>
+        <LeistungListItem>Alcantara Dachhimmel / Lenkrad / Sitze</LeistungListItem>
+      </LeistungList>
       <LeistungPreis>
-        ab 30€ <span>inkl. MwSt</span>
-      </LeistungPreis>
-    </Card>
-
-    <Card title="Master Paket" highlight={true}>
-      <p>
-        Begrenzt auf wenige Autos im Jahr ist das Master Paket die absolute
-        Endstufe des machbaren. Dein Lack wird in bis zu 5 Durchgängen bis zur
-        perfektion Poliert und mit einem Lackschutz deiner Wahl veredelt.{' '}
-      </p>
-      <p>
-        Für weitere Infos kontaktiere uns und wir finden die beste Lösung für
-        dein Fahrzeug.
-      </p>
-      <p>
-        Für 2021 nur noch <strong>1 von 4</strong> verfügbar
-      </p>
-      <LeistungPreis>
-        ab 2500€ <span>inkl. MwSt</span>
+        ab 60€ <span>inkl. MwSt</span>
       </LeistungPreis>
     </Card>
   </Page>

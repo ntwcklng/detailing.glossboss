@@ -3,11 +3,17 @@ import Heading from '../components/Heading'
 import SubHeading from '../components/SubHeading'
 import ReferenzItem from '../components/Referenzitem.js'
 import Card from '../components/Card'
+import { NextSeo } from 'next-seo';
 const ReferenzenComponent = () => (
   <Page
     title="Referenzen"
     subTitle="Hier findest du eine kleine Auswahl an Fahrzeugen die wir schon pflegen durften."
   >
+            <NextSeo
+      title="Referenzen - GLOSSBOSS Detailing in 46282 Dorsten"
+      description="Vom Porsche bis Piaggio - Unsere Referenzen für hochwertige Fahrzeugpflege"
+      canonical="https://detailing.glossboss.de/referenzen"
+    />
         <Card title="Porsche 991.2 Turbo S">
       <ReferenzItem
         img={[

@@ -2,6 +2,7 @@ import Page from '../layouts/Page'
 import Card from '../components/Card'
 import Button from '../components/Button'
 import styled from 'styled-components'
+import { NextSeo } from 'next-seo';
 
 import {
   LeistungList,
@@ -27,6 +28,11 @@ margin: 0 25px 25px 0;
 
 const WorkshopsComponent = () => (
   <Page title="Workshops / Schulungen" subTitle="">
+          <NextSeo
+      title="Workshops / Schulungen - GLOSSBOSS Detailing"
+      description="Lust auf'n Workshop beim Papa?"
+      canonical="https://detailing.glossboss.de/workshops"
+    />
     <Card>
     <h1>Lust auf 'n Workshop beim Papa?</h1>
     <WorkshopImage src="https://glossbossuploader.s3.eu-central-1.amazonaws.com/vUrxiThlT8ttY3zq1X-Xk-papa/DSC06430.jpg" alt="Dozent Marvin Mieth"></WorkshopImage>
