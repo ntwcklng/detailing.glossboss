@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Page from '../layouts/Page'
 import Heading from '../components/Heading'
 import Card from '../components/Card'
-import { NextSeo } from 'next-seo';
+import { NextSeo } from 'next-seo'
 
 import {
   LeistungList,
@@ -13,12 +13,16 @@ import {
 
 const LeistungenComponent = () => (
   <Page title="Leistungen / Preise">
-            <NextSeo
+    <NextSeo
       title="Leistungen - GLOSSBOSS Detailing"
       description="Über 12 Jahre Erfahrung im Bereich der hochwertigen Fahrzeugpflege - Unsere Leistungen"
       canonical="https://detailing.glossboss.de/leistungen"
     />
-    <p>Egal ob anspruchsvolle Defektkorrektur am Lack wie zum Beispiel tiefe Kratzer oder Vogelkotrückstände entfernen, oder einfache Lederreinigung und Pflege, wir bieten die passende Leistung. </p>
+    <p>
+      Egal ob anspruchsvolle Defektkorrektur am Lack wie zum Beispiel tiefe
+      Kratzer oder Vogelkotrückstände entfernen, oder einfache Lederreinigung
+      und Pflege, wir bieten die passende Leistung.{' '}
+    </p>
     <Card title="Polieren - Defektkorrektur">
       <p>
         Wir entfernen feine Kratzer (Waschanlagenkratzer, Swirls) und
@@ -46,8 +50,8 @@ const LeistungenComponent = () => (
 
     <Card title="Versiegelung - Keramikbeschichtung">
       <p>
-        Eine keramische Versiegelung wie das Nanolex Si3D schützt den
-        Lack zuverlässig vor allen Umwelteinflüssen. Als erster in Deutschland
+        Eine keramische Versiegelung wie das Nanolex Si3D schützt den Lack
+        zuverlässig vor allen Umwelteinflüssen. Als erster in Deutschland
         zertifizierter Aufbereiter von Gtechniq, appliziere ich diese
         Versiegelung fachlich korrekt, damit diese auch mehrere Jahre hält.
       </p>{' '}
@@ -62,7 +66,9 @@ const LeistungenComponent = () => (
         </LeistungListItem>
         <LeistungListItem>Nanolex Si3d HD</LeistungListItem>
         <LeistungListItem>Sonax CC Evo / CC One</LeistungListItem>
-        <LeistungListItem>Labocosmetica #BLINDO+ / #SAM / #HPC</LeistungListItem>
+        <LeistungListItem>
+          Labocosmetica #BLINDO+ / #SAM / #HPC
+        </LeistungListItem>
         <LeistungListItem>Max Protect UNC-R / UNC-R Light</LeistungListItem>
         <LeistungListItem>Weitere auf Anfrage</LeistungListItem>
       </LeistungList>
@@ -125,9 +131,7 @@ const LeistungenComponent = () => (
       <p>
         Versiegelte Felgen lassen sich einfacher reinigen und glänzen besser.
         Der heiße Bremsstaub kann sich außerdem nicht so schnell in den Lack der
-        Felge einbrennen. Du hast die Wahl zwischen Gtechniq C5 und ServFaces
-        Coat Rims. Beide Versiegelungen wurden von uns mehrfach getestet und
-        garantieren maximale Standzeit.
+        Felge einbrennen.
       </p>
       <LeistungPreis>
         ab 150€ <span>inkl. MwSt</span>
@@ -136,14 +140,20 @@ const LeistungenComponent = () => (
 
     <Card title="Flecken aus Stoff- und Alcantara entfernen">
       <p>
-        Flecken aus Stoff- oder Alcantaraoberflächen entfernen wir entweder komplett Chemiefrei mit Trockendampf, oder schonend mit einer milden Reinigungslösung. 
+        Flecken aus Stoff- oder Alcantaraoberflächen entfernen wir entweder
+        komplett Chemiefrei mit Trockendampf, oder schonend mit einer milden
+        Reinigungslösung.
       </p>
       <p>
-        Damit die gereinigte Oberfläche auch langfristig vor neuen Verschmutzungen geschützt ist, wird diese nach der Reinigung imprägniert.
+        Damit die gereinigte Oberfläche auch langfristig vor neuen
+        Verschmutzungen geschützt ist, wird diese nach der Reinigung
+        imprägniert.
       </p>
       <LeistungList>
         <LeistungListItem>Stoff- oder Teilledersitze</LeistungListItem>
-        <LeistungListItem>Alcantara Dachhimmel / Lenkrad / Sitze</LeistungListItem>
+        <LeistungListItem>
+          Alcantara Dachhimmel / Lenkrad / Sitze
+        </LeistungListItem>
       </LeistungList>
       <LeistungPreis>
         ab 60€ <span>inkl. MwSt</span>
