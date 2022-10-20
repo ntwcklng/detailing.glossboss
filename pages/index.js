@@ -58,9 +58,6 @@ const IndexPage = () => (
       </a>
       .
     </Card>
-    <Card title="Einblick in unsere Arbeit">
-      <Video link="https://www.youtube.com/embed/blEA8MAKZpU" />
-    </Card>
   </Page>
 )
 export default IndexPage

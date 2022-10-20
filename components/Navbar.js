@@ -13,7 +13,7 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: 0;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",sans-serif;
   text-rendering:optimizeLegibility;
   -webkit-font-smoothing:antialiased;
 };
@@ -49,22 +49,22 @@ const NavbarListItem = styled.li`
   display: inline-block;
   margin-right: 25px;
   padding: 0;
-  transform: ${props => (props.isLogo ? '' : 'translateY(-22px)')};
+  transform: ${(props) => (props.isLogo ? '' : 'translateY(-22px)')};
   text-transform: uppercase;
   letter-spacing: 1.5px;
   a {
-    color: ${props => (props.active ? 'white !important' : '')};
+    color: ${(props) => (props.active ? 'white !important' : '')};
     text-decoration: none;
-    font-weight: ${props => (props.active ? '700' : '400')};
+    font-weight: ${(props) => (props.active ? '700' : '400')};
   }
   a:hover {
     color: white;
   }
   @media (max-width: ${config.mobileMQ}) {
-    display: ${props =>
+    display: ${(props) =>
       props.isLogo ? 'block' : props.toggle ? 'block' : 'none'};
-    margin: ${props => (props.isLogo ? '0' : '10px auto')};
-    transform: ${props => (props.isLogo ? '' : 'translateY(30px)')};
+    margin: ${(props) => (props.isLogo ? '0' : '10px auto')};
+    transform: ${(props) => (props.isLogo ? '' : 'translateY(30px)')};
     text-align: center;
     height: 50px;
     width: 100%;
@@ -92,13 +92,13 @@ export default class NavBar extends React.Component {
   constructor() {
     super()
     this.state = {
-      nav: false
+      nav: false,
     }
   }
   toggleNav() {
     this.setState((prevState, props) => {
       return {
-        nav: !prevState.nav
+        nav: !prevState.nav,
       }
     })
   }
@@ -117,7 +117,7 @@ export default class NavBar extends React.Component {
               </a>
             </NavbarListItemLogoWrapper>
           </NavbarListItem>
-          {this.props.links.map(link => (
+          {this.props.links.map((link) => (
             <NavbarListItem
               key={link.href}
               toggle={this.state.nav}

@@ -67,7 +67,7 @@ const LeistungenComponent = () => (
         <LeistungListItem>Nanolex Si3d HD</LeistungListItem>
         <LeistungListItem>Sonax CC Evo / CC One</LeistungListItem>
         <LeistungListItem>
-          Labocosmetica #BLINDO+ / #SAM / #HPC
+          Labocosmetica #BLINDO+ / #SAM / #HPC / #STC
         </LeistungListItem>
         <LeistungListItem>Max Protect UNC-R / UNC-R Light</LeistungListItem>
         <LeistungListItem>Weitere auf Anfrage</LeistungListItem>
