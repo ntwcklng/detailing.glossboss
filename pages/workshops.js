@@ -12,7 +12,7 @@ import {
 
 const SilentP = styled.p`
   text-align: center;
-  font-weight: 200;
+  font-weight: 300;
 `
 const WorkshopImage = styled.img`
   float: left;
@@ -97,6 +97,10 @@ const WorkshopsComponent = () => (
         link="mailto:marvin@glossboss.de?subject=GLOSSBOSS%20Workshop"
         title="Termin anfragen"
       ></Button>
+      <SilentP>
+        Du möchtest dich für Labocosmetica Zertifizieren lassen?{' '}
+        <a href="/labocosmetica">Hier gibts mehr Infos</a>
+      </SilentP>
       <SilentP>
         oder anrufen: <a href="tel:+491703262412">+491703262412</a>
       </SilentP>
